@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "elasticsearch": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "--env-file",
+        "../_assets/elastic/.env",
+        "docker.elastic.co/mcp/elasticsearch",
+        "stdio"
+      ],
+      "type": "stdio"
+    },
+    "ghidra": {
+      "command": "uv",
+      "args": [
+        "run",
+        "../_assets/ghidra/bridge_mcp_ghidra.py",
+        "--ghidra-server",
+        "http://127.0.0.1:8080/"
+      ],
+      "type": "stdio"
+    }
+  }
+}
+

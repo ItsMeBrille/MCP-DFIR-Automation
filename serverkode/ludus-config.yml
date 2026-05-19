@@ -1,0 +1,118 @@
+ludus:
+  # Elastic server
+  - vm_name: "{{ range_id }}-elastic"
+    hostname: "{{ range_id }}-elastic"
+    template: debian-12-x64-server-template
+    vlan: 20
+    ip_last_octet: 1
+    ram_gb: 12
+    cpus: 4
+    linux: true
+    testing:
+      snapshot: false
+      block_internet: false
+    roles:
+      - ludus_elastic_container
+    role_vars:
+      ludus_elastic_stack_version: "9.3.2"
+      ludus_elastic_license_type: "trial"
+
+  # Angripers servere
+  - vm_name: "{{ range_id }}-debian-downloadserver"
+    hostname: "{{ range_id }}-debian-1"
+    template: debian-12-x64-server-template
+    vlan: 124
+    ip_last_octet: 26
+    ram_gb: 2
+    cpus: 2
+    linux: true
+    testing:
+      snapshot: false
+      block_internet: false
+  - vm_name: "{{ range_id }}-debian-loggingserver"
+    hostname: "{{ range_id }}-debian-2"
+    template: debian-12-x64-server-template
+    vlan: 97
+    ip_last_octet: 182
+    ram_gb: 2
+    cpus: 2
+    linux: true
+    testing:
+      snapshot: false
+      block_internet: false
+  - vm_name: "{{ range_id }}-debian-c2server"
+    hostname: "{{ range_id }}-debian-3"
+    template: debian-12-x64-server-template
+    vlan: 215
+    ip_last_octet: 83
+    ram_gb: 2
+    cpus: 2
+    linux: true
+    testing:
+      snapshot: false
+      block_internet: false
+
+  # Window machines
+  - vm_name: "{{ range_id }}-win11-22h2-enterprise-x64-1"
+    hostname: "ANDERS-DESKTOP"
+    template: win11-22h2-x64-enterprise-template
+    vlan: 10
+    ip_last_octet: 21
+    ram_gb: 8
+    cpus: 4
+    windows:
+      install_additional_tools: false
+    roles:
+      - badsectorlabs.ludus_elastic_agent
+      - ludus_local_users
+    role_vars:
+      ludus_elastic_agent_version: "9.3.2"
+      ludus_local_users:
+        - login: anders
+          password: lLIG17JUVCyu56d
+      ludus_local_groups:
+        - name: Administrators
+          members:
+            - anders
+  - vm_name: "{{ range_id }}-win11-22h2-enterprise-x64-2"
+    hostname: "JOHN-DESKTOP"
+    template: win11-22h2-x64-enterprise-template
+    vlan: 10
+    ip_last_octet: 22
+    ram_gb: 8
+    cpus: 4
+    windows:
+      install_additional_tools: false
+    roles:
+      - badsectorlabs.ludus_elastic_agent
+      - ludus_local_users
+    role_vars:
+      ludus_elastic_agent_version: "9.3.2"
+      ludus_local_users:
+        - login: john
+          password: 5tB2RgjjI7kdEXHC
+      ludus_local_groups:
+        - name: Administrators
+          members:
+            - john
+  - vm_name: "{{ range_id }}-win11-22h2-enterprise-x64-3"
+    hostname: "EMIL-DESKTOP"
+    template: win11-22h2-x64-enterprise-template
+    vlan: 10
+    ip_last_octet: 23
+    ram_gb: 8
+    cpus: 4
+    windows:
+      install_additional_tools: false
+    roles:
+      - badsectorlabs.ludus_elastic_agent
+      - ludus_local_users
+    role_vars:
+      ludus_elastic_agent_version: "9.3.2"
+      ludus_local_users:
+        - login: emil
+          password: iloveyou
+      ludus_local_groups:
+        - name: Administrators
+          members:
+            - emil

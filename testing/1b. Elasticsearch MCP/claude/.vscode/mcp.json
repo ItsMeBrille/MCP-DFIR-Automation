@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "elasticsearch": {
+      "command": "docker",
+      "args": [
+        "run", "-i", "--rm",
+        "--env-file", "../../_assets/elastic/.env",
+        "docker.elastic.co/mcp/elasticsearch", "stdio"
+      ],
+      "type": "stdio"
+    },
+ }
+}

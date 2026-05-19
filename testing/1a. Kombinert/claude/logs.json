@@ -1,0 +1,1802 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "copilot-chat"
+            }
+          },
+          {
+            "key": "session.id",
+            "value": {
+              "stringValue": "17793912-35ed-4ce1-99b4-c3e695f6469c"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "scope": {
+            "name": "copilot-chat"
+          },
+          "spans": [
+            {
+              "traceId": "exported-trace",
+              "spanId": "session-start-17793912-35ed-4ce1-99b4-c3e695f6469c",
+              "name": "session_start",
+              "kind": 1,
+              "startTimeUnixNano": "1777233636934000000",
+              "endTimeUnixNano": "1777233636934000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "1e86ba48-13b9-455f-931f-1a6c2c82d5a7",
+              "name": "Agent Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1777233599731000000",
+              "endTimeUnixNano": "1777233599731000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 3 agents in 521.2ms | loaded: [Plan, Ask, Explore] | folders: [/home/user1/.claude/agents, /home/user1/.copilot/agents, /home/user1/.config/Code/User/prompts, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.github/agents, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.claude/agents]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "2f6c1837-742c-45fc-9482-0308c0a35e05",
+              "name": "Instructions Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1777233599732000000",
+              "endTimeUnixNano": "1777233599732000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 0 instructions in 371.0ms | folders: [/home/user1/.copilot/instructions, /home/user1/.claude/rules, /home/user1/.config/Code/User/prompts, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.github/instructions, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.claude/rules]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "7e8bec79-5e96-4aee-a984-9691b3b9c639",
+              "name": "Slash Commands Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1777233599733000000",
+              "endTimeUnixNano": "1777233599733000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 14 slash commands in 19.1ms | loaded: [plan, typescript-setup, project-setup-info-local, project-setup-info-context7, install-vscode-extension, get-search-view-results, troubleshoot, agent-customization, init, create-prompt, create-instructions, create-skill, create-agent, create-hook] | folders: [/home/user1/.config/Code/User/prompts, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.github/prompts, /home/user1/.copilot/skills, /home/user1/.agents/skills, /home/user1/.claude/skills, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.github/skills, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.agents/skills, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.claude/skills]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "d6b76889-d529-494f-b836-f87bc07a2400",
+              "name": "Skill Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1777233599733000000",
+              "endTimeUnixNano": "1777233599733000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 13 skills in 32.6ms | loaded: [typescript-setup, project-setup-info-local, project-setup-info-context7, install-vscode-extension, get-search-view-results, troubleshoot, agent-customization, init, create-prompt, create-instructions, create-skill, create-agent, create-hook] | folders: [/home/user1/.copilot/skills, /home/user1/.agents/skills, /home/user1/.claude/skills, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.github/skills, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.agents/skills, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.claude/skills]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "e5970d89-e542-48b1-bc65-d1ae95712730",
+              "name": "Hook Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1777233599733000000",
+              "endTimeUnixNano": "1777233599733000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 0 hooks in 39.5ms | folders: [/home/user1/.copilot/hooks, /home/user1/.claude/settings.json, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.github/hooks, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.claude/settings.local.json, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.claude/settings.json]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000011",
+              "name": "user_message",
+              "kind": 1,
+              "startTimeUnixNano": "1777233636935000000",
+              "endTimeUnixNano": "1777233636935000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000011-0",
+              "name": "turn_start:0",
+              "kind": 1,
+              "startTimeUnixNano": "1777233636935000000",
+              "endTimeUnixNano": "1777233636935000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "bfc28cd9-efb0-47cb-a658-b6e0d3056509",
+              "name": "Agent Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1777233636932000000",
+              "endTimeUnixNano": "1777233636932000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 3 agents in 521.2ms | loaded: [Plan, Ask, Explore] | folders: [/home/user1/.claude/agents, /home/user1/.copilot/agents, /home/user1/.config/Code/User/prompts, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.github/agents, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.claude/agents]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "07258dc7-7862-42e9-971e-bdc18e760697",
+              "name": "Instructions Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1777233636932000000",
+              "endTimeUnixNano": "1777233636932000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 0 instructions in 371.0ms | folders: [/home/user1/.copilot/instructions, /home/user1/.claude/rules, /home/user1/.config/Code/User/prompts, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.github/instructions, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.claude/rules]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "3e6a42c4-8316-4717-8274-035e55790a54",
+              "name": "Slash Commands Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1777233636932000000",
+              "endTimeUnixNano": "1777233636932000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 14 slash commands in 19.1ms | loaded: [plan, typescript-setup, project-setup-info-local, project-setup-info-context7, install-vscode-extension, get-search-view-results, troubleshoot, agent-customization, init, create-prompt, create-instructions, create-skill, create-agent, create-hook] | folders: [/home/user1/.config/Code/User/prompts, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.github/prompts, /home/user1/.copilot/skills, /home/user1/.agents/skills, /home/user1/.claude/skills, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.github/skills, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.agents/skills, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.claude/skills]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "d4987436-f61b-4eca-b59a-52e435d88332",
+              "name": "Skill Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1777233636932000000",
+              "endTimeUnixNano": "1777233636932000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 13 skills in 32.6ms | loaded: [typescript-setup, project-setup-info-local, project-setup-info-context7, install-vscode-extension, get-search-view-results, troubleshoot, agent-customization, init, create-prompt, create-instructions, create-skill, create-agent, create-hook] | folders: [/home/user1/.copilot/skills, /home/user1/.agents/skills, /home/user1/.claude/skills, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.github/skills, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.agents/skills, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.claude/skills]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "ff101f43-dbdd-43e0-a9dd-8a00d25cb354",
+              "name": "Hook Discovery",
+              "kind": 1,
+              "startTimeUnixNano": "1777233636932000000",
+              "endTimeUnixNano": "1777233636932000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_details",
+                  "value": {
+                    "stringValue": "Resolved 0 hooks in 39.5ms | folders: [/home/user1/.copilot/hooks, /home/user1/.claude/settings.json, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.github/hooks, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.claude/settings.local.json, /home/user1/cisk/bachelor/Bachelortesting/tester/1a. Begge/claude/.claude/settings.json]"
+                  }
+                },
+                {
+                  "key": "copilot_chat.event_category",
+                  "value": {
+                    "stringValue": "discovery"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000016",
+              "parentSpanId": "0000000000000011",
+              "name": "manage_todo_list",
+              "kind": 1,
+              "startTimeUnixNano": "1777233637387000000",
+              "endTimeUnixNano": "1777233637388000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "manage_todo_list"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"operation\":\"read\",\"chatSessionResource\":{\"$mid\":1,\"external\":\"vscode-chat-session://local/MTc3OTM5MTItMzVlZC00Y2UxLTk5YjQtYzNlNjk1ZjY0Njlj\",\"path\":\"/MTc3OTM5MTItMzVlZC00Y2UxLTk5YjQtYzNlNjk1ZjY0Njlj\",\"scheme\":\"vscode-chat-session\",\"authority\":\"local\"}}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "No todo list found."
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "child-ref-e41df760-e246-4c47-a460-084c268eff95",
+              "name": "title",
+              "kind": 1,
+              "startTimeUnixNano": "1777233638520000000",
+              "endTimeUnixNano": "1777233638520000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000017",
+              "parentSpanId": "0000000000000011",
+              "name": "chat:claude-opus-4.7",
+              "kind": 1,
+              "startTimeUnixNano": "1777233637401000000",
+              "endTimeUnixNano": "1777233641426000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-opus-4.7"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "34932"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "148"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-0000000000000017",
+              "parentSpanId": "0000000000000011",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1777233641426000000",
+              "endTimeUnixNano": "1777233641426000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000011-0",
+              "name": "turn_end:0",
+              "kind": 1,
+              "startTimeUnixNano": "1777233641433000000",
+              "endTimeUnixNano": "1777233641433000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000011-1",
+              "name": "turn_start:1",
+              "kind": 1,
+              "startTimeUnixNano": "1777233641433000000",
+              "endTimeUnixNano": "1777233641433000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000018",
+              "parentSpanId": "0000000000000011",
+              "name": "chat:claude-opus-4.7",
+              "kind": 1,
+              "startTimeUnixNano": "1777233641454000000",
+              "endTimeUnixNano": "1777233650839000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-opus-4.7"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "35000"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "112"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-0000000000000018",
+              "parentSpanId": "0000000000000011",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1777233650839000000",
+              "endTimeUnixNano": "1777233650839000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000011-1",
+              "name": "turn_end:1",
+              "kind": 1,
+              "startTimeUnixNano": "1777233650848000000",
+              "endTimeUnixNano": "1777233650848000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000011-2",
+              "name": "turn_start:2",
+              "kind": 1,
+              "startTimeUnixNano": "1777233650848000000",
+              "endTimeUnixNano": "1777233650848000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000001a",
+              "parentSpanId": "0000000000000011",
+              "name": "mcp_ghidra_list_functions",
+              "kind": 1,
+              "startTimeUnixNano": "1777233650868000000",
+              "endTimeUnixNano": "1777233650922000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "mcp_ghidra_list_functions"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "FUN_140001190 at 140001190entry at 1400014d0FUN_140001510 at 140001510FUN_140001550 at 140001550FUN_140001593 at 140001593FUN_1400015dd at 1400015ddFUN_1400017b0 at 1400017b0FUN_1400018e7 at 1400018e7FUN_140001a1c at 140001a1cFUN_140001ad4 at 140001ad4FUN_140001b8c at 140001b8cFUN_140001df3 at 140001df3FUN_140001e54 at 140001e54FUN_140001eb5 at 140001eb5FUN_140001f13 at 140001f13FUN_140001fe4 at 140001fe4FUN_1400020c7 at 1400020c7FUN_14000221a at 14000221aFUN_1400022bb at 1400022bbFUN_1400023e9 at 1400023e9FUN_1400026bf at 1400026bfFUN_140002884 at 140002884FUN_140002e83 at 140002e83FUN_14000318b at 14000318bFUN_140003233 at 140003233BCryptSetProperty at 140003c90BCryptOpenAlgorithmProvider at 140003c98BCryptGenerateSymmetricKey at 140003ca0BCryptEncrypt at 140003ca8BCryptDestroyKey at 140003cb0BCryptDecrypt at 140003cb8BCryptCloseAlgorithmProvider at 140003cc0FUN_140003d50 at 140003d50FUN_140003dc0 at 140003dc0FUN_140003df0 at 140003df0tls_callback_1 at 140003e00tls_callback_0 at 140003e30FUN_140003fd0 at 140003fd0FUN_140003fe0 at 140003fe0FUN_140004050 at 140004050FUN_140004270 at 140004270FUN_1400045b0 at 1400045b0FUN_140004770 at 140004770FUN_1400048f0 at 1400048f0FUN_1400049d0 at 1400049d0FUN_140004b00 at 140004b00FUN_140004b90 at 140004b90FUN_140004c30 at 140004c30FUN_140004db0 at 140004db0FUN_140004df0 at 140004df0FUN_140004e20 at 140004e20FUN_140004eb0 at 140004eb0FUN_140004f30 at 140004f30FUN_140004fd0 at 140004fd0FUN_140005070 at 140005070FUN_1400050e0 at 1400050e0FUN_140008390 at 140008390FUN_1400083e0 at 1400083e0FUN_140008440 at 140008440FUN_1400084e0 at 1400084e0FUN_1400085e0 at 1400085e0FUN_140008840 at 140008840FUN_140008a60 at 140008a60FUN_140008b70 at 140008b70FUN_140008bd0 at 140008bd0FUN_140008d00 at 140008d00FUN_140008df0 at 140008df0FUN_140008e40 at 140008e40FUN_140008ef0 at 140008ef0FUN_140009000 at 140009000FUN_1400093c0 at 1400093c0FUN_140009490 at 140009490FUN_140009800 at 140009800FUN_1400098f0 at 1400098f0FUN_1400099a0 at 1400099a0FUN_140009b10 at 140009b10FUN_140009fb0 at 140009fb0FUN_14000a530 at 14000a530FUN_14000ae80 at 14000ae80FUN_14000aec0 at 14000aec0FUN_14000af50 at 14000af50FUN_14000af70 at 14000af70FUN_14000b0e0 at 14000b0e0FUN_14000c7c0 at 14000c7c0FUN_14000c8c0 at 14000c8c0FUN_14000c910 at 14000c910FUN_14000ca40 at 14000ca40FUN_14000cb40 at 14000cb40FUN_14000cbb0 at 14000cbb0FUN_14000cc60 at 14000cc60FUN_14000cc90 at 14000cc90FUN_14000cde0 at 14000cde0FUN_14000cf70 at 14000cf70FUN_14000d0a0 at 14000d0a0FUN_14000d0f0 at 14000d0f0FUN_14000d2c0 at 14000d2c0FUN_14000d3e0 at 14000d3e0FUN_14000d510 at 14000d510FUN_14000d5d0 at 14000d5d0FUN_14000d990 at 14000d990FUN_14000da70 at 14000da70FUN_14000f5b0 at 14000f5b0FUN_14000f740 at 14000f740FUN_14000f770 at 14000f770FUN_14000f7a0 at 14000f7a0FUN_140010100 at 140010100FUN_1400101a0 at 1400101a0FUN_1400105b0 at 1400105b0FUN_1400106c0 at 1400106c0FUN_140010760 at 140010760FUN_1400107b0 at 1400107b0FUN_140010810 at 140010810wcslen at 140010890vfprintf at 140010898ungetc at 1400108a0tolower at 1400108a8strtoul at 1400108b0strtol at 1400108b8strstr at 1400108c0strncmp at 1400108c8strlen at 1400108d0strerror at 1400108d8strcpy at 1400108e0strcmp at 1400108e8strchr at 1400108f0signal at 1400108f8realloc at 140010900memcpy at 140010908malloc at 140010910localeconv at 140010918isxdigit at 140010920isupper at 140010928isspace at 140010930islower at 140010938getc at 140010940fwrite at 140010948free at 140010950fputc at 140010958fprintf at 140010960exit at 140010968calloc at 140010970abort at 140010978_onexit at 140010980_initterm at 140010988_errno at 140010990_cexit at 140010998_amsg_exit at 1400109a0__setusermatherr at 1400109a8__set_app_type at 1400109b0__getmainargs at 1400109c0FUN_1400109d0 at 1400109d0FUN_140010b50 at 140010b50FUN_140010cd0 at 140010cd0FUN_140010d30 at 140010d30FUN_140010dc0 at 140010dc0FUN_140010f10 at 140010f10FUN_140010f40 at 140010f40FUN_140010f50 at 140010f50FUN_140010f60 at 140010f60FUN_140010f70 at 140010f70__iob_func at 140010f80___mb_cur_max_func at 140010f88___lc_codepage_func at 140010f90"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000019",
+              "parentSpanId": "0000000000000011",
+              "name": "mcp_elasticsearch_list_indices",
+              "kind": 1,
+              "startTimeUnixNano": "1777233650868000000",
+              "endTimeUnixNano": "1777233651077000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "mcp_elasticsearch_list_indices"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"index_pattern\":\"*\"}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "Found 67 indices:[{\"index\":\".ds-metrics-fleet_server.agent_status-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":1526},{\"index\":\".ds-metrics-endpoint.metrics-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":0},{\"index\":\".ds-metrics-windows.service-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":16967},{\"index\":\".ds-metrics-elastic_agent.packetbeat-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":61},{\"index\":\".internal.alerts-ml.anomaly-detection.alerts-default-000001\",\"status\":\"open\",\"docs.count\":0},{\"index\":\".ds-metrics-system.memory-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":364},{\"index\":\".ds-logs-elastic_agent-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":4},{\"index\":\".ds-metrics-elastic_agent.filebeat_input-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":2345},{\"index\":\".internal.alerts-observability.slo.alerts-default-000001\",\"status\":\"open\",\"docs.count\":0},{\"index\":\".ds-logs-network_traffic.http-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":493},{\"index\":\".internal.alerts-security.attack.discovery.alerts-default-000001\",\"status\":\"open\",\"docs.count\":0},{\"index\":\".ds-metrics-system.cpu-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":363},{\"index\":\".internal.alerts-observability.metrics.alerts-default-000001\",\"status\":\"open\",\"docs.count\":0},{\"index\":\".ds-metrics-elastic_agent.filebeat-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":1673},{\"index\":\".ds-metrics-system.process.summary-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":363},{\"index\":\".ds-logs-elastic_agent.metricbeat-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":191},{\"index\":\".ds-logs-system.application-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":40},{\"index\":\".internal.alerts-stack.alerts-default-000001\",\"status\":\"open\",\"docs.count\":0},{\"index\":\".ds-metrics-system.network-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":1089},{\"index\":\".ds-metrics-system.fsstat-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":59},{\"index\":\".ds-logs-network_traffic.dns-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":1857},{\"index\":\".ds-metrics-system.filesystem-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":60},{\"index\":\".ds-logs-system.security-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":497},{\"index\":\".internal.alerts-observability.uptime.alerts-default-000001\",\"status\":\"open\",\"docs.count\":0},{\"index\":\".ds-metrics-fleet_server.agent_versions-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":3052},{\"index\":\".ds-logs-endpoint.events.library-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":1972},{\"index\":\".ds-logs-windows.sysmon_operational-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":1668},{\"index\":\".ds-logs-endpoint.events.security-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":193},{\"index\":\".ds-logs-windows.applocker_exe_and_dll-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":2},{\"index\":\".ds-logs-endpoint.events.process-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":1805},{\"index\":\".ds-metrics-elastic_agent.fleet_server-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":1551},{\"index\":\".ds-logs-elastic_agent.filebeat-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":0},{\"index\":\".ds-metrics-endpoint.metadata-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":0},{\"index\":\".internal.alerts-observability.threshold.alerts-default-000001\",\"status\":\"open\",\"docs.count\":0},{\"index\":\".ds-logs-elastic_agent.fleet_server-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":17901},{\"index\":\".ds-metrics-elastic_agent.endpoint_security-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":63},{\"index\":\".ds-logs-endpoint.events.registry-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":1502},{\"index\":\".internal.alerts-transform.health.alerts-default-000001\",\"status\":\"open\",\"docs.count\":0},{\"index\":\".ds-metrics-system.diskio-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":724},{\"index\":\".ds-metrics-elastic_agent.elastic_agent-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":6530},{\"index\":\".ds-metrics-system.process-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":3263},{\"index\":\".ds-metrics-windows.perfmon-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":63961},{\"index\":\".ds-logs-windows.powershell_operational-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":0},{\"index\":\".ds-metrics-endpoint.policy-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":0},{\"index\":\".internal.alerts-default.alerts-default-000001\",\"status\":\"open\",\"docs.count\":0},{\"index\":\".ds-logs-network_traffic.icmp-default-2026.03.29-000001\",\"status\":\"open\",\"docs.count\":86},{\"index\":\".internal.alerts-streams.alerts-default-000001\",\"status\":\"open\",\"docs.count\":0},{\"index\":\".internal.alerts-observability.apm.alerts-default-000001\",\"status\":\"open\",\"docs.count\":0},{\"index\":\".ds-metrics-elastic_agent.metricbeat-default-2026.03.29-000001[truncated]"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000001d",
+              "parentSpanId": "0000000000000011",
+              "name": "chat:claude-opus-4.7",
+              "kind": 1,
+              "startTimeUnixNano": "1777233651116000000",
+              "endTimeUnixNano": "1777233657332000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-opus-4.7"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "40465"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "378"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-000000000000001d",
+              "parentSpanId": "0000000000000011",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1777233657332000000",
+              "endTimeUnixNano": "1777233657332000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000011-2",
+              "name": "turn_end:2",
+              "kind": 1,
+              "startTimeUnixNano": "1777233657339000000",
+              "endTimeUnixNano": "1777233657339000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000011-3",
+              "name": "turn_start:3",
+              "kind": 1,
+              "startTimeUnixNano": "1777233657339000000",
+              "endTimeUnixNano": "1777233657339000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000001f",
+              "parentSpanId": "0000000000000011",
+              "name": "mcp_ghidra_list_imports",
+              "kind": 1,
+              "startTimeUnixNano": "1777233657358000000",
+              "endTimeUnixNano": "1777233657386000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "mcp_ghidra_list_imports"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"limit\":200}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "GetUserNameA -> EXTERNAL:00000001RegCloseKey -> EXTERNAL:00000002RegCreateKeyExA -> EXTERNAL:00000003RegSetValueExA -> EXTERNAL:00000004BCryptCloseAlgorithmProvider -> EXTERNAL:00000005BCryptDecrypt -> EXTERNAL:00000006BCryptDestroyKey -> EXTERNAL:00000007BCryptEncrypt -> EXTERNAL:00000008BCryptGenerateSymmetricKey -> EXTERNAL:00000009BCryptOpenAlgorithmProvider -> EXTERNAL:0000000aBCryptSetProperty -> EXTERNAL:0000000bCloseHandle -> EXTERNAL:0000000cCopyFileA -> EXTERNAL:0000000dCreateDirectoryA -> EXTERNAL:0000000eCreateMutexA -> EXTERNAL:0000000fCreatePipe -> EXTERNAL:00000010CreateProcessA -> EXTERNAL:00000011CreateThread -> EXTERNAL:00000012DeleteCriticalSection -> EXTERNAL:00000013DeleteFileA -> EXTERNAL:00000014EnterCriticalSection -> EXTERNAL:00000015FindClose -> EXTERNAL:00000016FindFirstFileA -> EXTERNAL:00000017FindNextFileA -> EXTERNAL:00000018FreeConsole -> EXTERNAL:00000019GetComputerNameA -> EXTERNAL:0000001aGetFileAttributesA -> EXTERNAL:0000001bGetLastError -> EXTERNAL:0000001cGetModuleFileNameA -> EXTERNAL:0000001dGetStartupInfoA -> EXTERNAL:0000001eGetSystemDefaultLCID -> EXTERNAL:0000001fGetSystemInfo -> EXTERNAL:00000020GlobalLock -> EXTERNAL:00000021GlobalMemoryStatusEx -> EXTERNAL:00000022GlobalUnlock -> EXTERNAL:00000023InitializeCriticalSection -> EXTERNAL:00000024IsDBCSLeadByteEx -> EXTERNAL:00000025LeaveCriticalSection -> EXTERNAL:00000026MultiByteToWideChar -> EXTERNAL:00000027ReadFile -> EXTERNAL:00000028ReleaseMutex -> EXTERNAL:00000029RemoveDirectoryA -> EXTERNAL:0000002aSetUnhandledExceptionFilter -> EXTERNAL:0000002bSleep -> EXTERNAL:0000002cTlsGetValue -> EXTERNAL:0000002dVirtualProtect -> EXTERNAL:0000002eVirtualQuery -> EXTERNAL:0000002fWaitForSingleObject -> EXTERNAL:00000030WideCharToMultiByte -> EXTERNAL:00000031__C_specific_handler -> EXTERNAL:00000032___lc_codepage_func -> EXTERNAL:00000033___mb_cur_max_func -> EXTERNAL:00000034__getmainargs -> EXTERNAL:00000035__initenv -> EXTERNAL:00000036__iob_func -> EXTERNAL:00000037__lconv_init -> EXTERNAL:00000038__set_app_type -> EXTERNAL:00000039__setusermatherr -> EXTERNAL:0000003a_acmdln -> EXTERNAL:0000003b_amsg_exit -> EXTERNAL:0000003c_cexit -> EXTERNAL:0000003d_commode -> EXTERNAL:0000003e_errno -> EXTERNAL:0000003f_fmode -> EXTERNAL:00000040_initterm -> EXTERNAL:00000041_onexit -> EXTERNAL:00000042abort -> EXTERNAL:00000043calloc -> EXTERNAL:00000044exit -> EXTERNAL:00000045fprintf -> EXTERNAL:00000046fputc -> EXTERNAL:00000047free -> EXTERNAL:00000048fwrite -> EXTERNAL:00000049getc -> EXTERNAL:0000004aislower -> EXTERNAL:0000004bisspace -> EXTERNAL:0000004cisupper -> EXTERNAL:0000004disxdigit -> EXTERNAL:0000004elocaleconv -> EXTERNAL:0000004fmalloc -> EXTERNAL:00000050memcpy -> EXTERNAL:00000051realloc -> EXTERNAL:00000052signal -> EXTERNAL:00000053strchr -> EXTERNAL:00000054strcmp -> EXTERNAL:00000055strcpy -> EXTERNAL:00000056strerror -> EXTERNAL:00000057strlen -> EXTERNAL:00000058strncmp -> EXTERNAL:00000059strstr -> EXTERNAL:0000005astrtol -> EXTERNAL:0000005bstrtoul -> EXTERNAL:0000005ctolower -> EXTERNAL:0000005dungetc -> EXTERNAL:0000005evfprintf -> EXTERNAL:0000005fwcslen -> EXTERNAL:00000060SHGetFolderPathA -> EXTERNAL:00000061CloseClipboard -> EXTERNAL:00000062GetAsyncKeyState -> EXTERNAL:00000063GetClipboardData -> EXTERNAL:00000064GetForegroundWindow -> EXTERNAL:00000065GetWindowTextA -> EXTERNAL:00000066OpenClipboard -> EXTERNAL:00000067HttpOpenRequestA -> EXTERNAL:00000068HttpSendRequestA -> EXTERNAL:00000069InternetCloseHandle -> EXTERNAL:0000006aInternetConnectA -> EXTERNAL:0000006bInternetOpenA -> EXTERNAL:0000006cInternetReadFile -> EXTERNAL:0000006d"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000020",
+              "parentSpanId": "0000000000000011",
+              "name": "mcp_ghidra_list_strings",
+              "kind": 1,
+              "startTimeUnixNano": "1777233657358000000",
+              "endTimeUnixNano": "1777233657391000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "mcp_ghidra_list_strings"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"limit\":300}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "140013000: \"Mozilla/5.0\"14001300c: \"MiccosoftUpdate.com\"140013020: \"HTTP/1.1\"140013030: \"Content-Type: application/octet-stream\\r\\n\"140013059: \"windowsupdater.tk\"14001306b: \"/api/data\"140013075: \"/update/servicedata\"140013098: \"ChainingModeECB\"1400130b8: \"ChainingMode\"1400130d2: \"[CLIPBOARD] %s\"1400130eb: \"%s\\%s\"140013100: \"Host: %s\\nUser: %s\\nArch: %s\\nCPUs: %lu\\nRAM: %llu MB\\n\"140013133: \"cmd.exe /c %s\"140013141: \"/windows/checkforupdate\"140013159: \"Host: %s\\r\\n\"140013164: \"Content-Type: text/plain\\r\\n\"14001317f: \"\"command\":\"14001318a: \"%s\\Microsoft\"140013197: \"%s\\Microsoft\\updater.exe\"1400131b0: \"Software\\Microsoft\\Windows\\CurrentVersion\\Run\"1400131de: \"MicrosoftUpdater\"1400131f0: \"SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Schedule\\TaskCache\\Tree\\MicrosoftUpdater\"140013249: \"Index\"14001324f: \"Global\\MicrosoftUpdateMutex\"14001326b: \"Host:\"140013271: \"Host: %255s\"14001327d: \"/api/info\"140013287: \"[WINDOW: %s]\"140013298: \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/\"140013340: \"Unknown error\"140013350: \"Argument domain error (DOMAIN)\"140013370: \"Overflow range error (OVERFLOW)\"140013390: \"Partial loss of significance (PLOSS)\"1400133b8: \"Total loss of significance (TLOSS)\"1400133e0: \"The result is too small to be represented (UNDERFLOW)\"140013416: \"Argument singularity (SIGN)\"140013438: \"_matherr(): %s in %s(%g, %g)  (retval=%g)\\n\"140013480: \"Mingw-w64 runtime failure:\\n\"1400134a0: \"Address %p has no image-section\"1400134c0: \"  VirtualQuery failed for %d bytes at address %p\"1400134f8: \"  VirtualProtect failed with code 0x%x\"140013520: \"  Unknown pseudo relocation protocol version %d.\\n\"140013558: \"  Unknown pseudo relocation bit size %d.\\n\"1400135ce: \"inity\"1400138d0: \"(null)\"1400138e0: \"(null)\"140013a60: \"Infinity\"140013c63: \"inity\"140013de2: \"23456789\"140014010: \"GCC: (GNU) 9.3-win32 20200320\"140014030: \"GCC: (GNU) 10-win32 20220113\"140014050: \"GCC: (GNU) 10-win32 20220113\"140014070: \"GCC: (GNU) 9.3-win32 20200320\"140014090: \"GCC: (GNU) 9.3-win32 20200320\"1400140b0: \"GCC: (GNU) 9.3-win32 20200320\"1400140d0: \"GCC: (GNU) 9.3-win32 20200320\"1400140f0: \"GCC: (GNU) 9.3-win32 20200320\"140014110: \"GCC: (GNU) 9.3-win32 20200320\"140014130: \"GCC: (GNU) 9.3-win32 20200320\"140014150: \"GCC: (GNU) 9.3-win32 20200320\"140014170: \"GCC: (GNU) 9.3-win32 20200320\"140014190: \"GCC: (GNU) 9.3-win32 20200320\"1400141b0: \"GCC: (GNU) 9.3-win32 20200320\"1400141d0: \"GCC: (GNU) 9.3-win32 20200320\"1400141f0: \"GCC: (GNU) 9.3-win32 20200320\"140014210: \"GCC: (GNU) 9.3-win32 20200320\"140014230: \"GCC: (GNU) 9.3-win32 20200320\"140014250: \"GCC: (GNU) 9.3-win32 20200320\"140014270: \"GCC: (GNU) 9.3-win32 20200320\"140014290: \"GCC: (GNU) 9.3-win32 20200320\"1400142b0: \"GCC: (GNU) 9.3-win32 20200320\"1400142d0: \"GCC: (GNU) 9.3-win32 20200320\"1400142f0: \"GCC: (GNU) 10-win32 20220113\"140014310: \"GCC: (GNU) 9.3-win32 20200320\"140014330: \"GCC: (GNU) 9.3-win32 20200320\"140014350: \"GCC: (GNU) 9.3-win32 20200320\"140014370: \"GCC: (GNU) 9.3-win32 20200320\"140014390: \"GCC: (GNU) 9.3-win32 20200320\"1400143b0: \"GCC: (GNU) 9.3-win32 20200320\"1400143d0: \"GCC: (GNU) 9.3-win32 20200320\"1400143f0: \"GCC: (GNU) 9.3-win32 20200320\"140014410: \"GCC: (GNU) 9.3-win32 20200320\"140014430: \"GCC: (GNU) 9.3-win32 20200320\"140014450: \"GCC: (GNU) 9.3-win32 20200320\"140014470: \"GCC: (GNU) 9.3-win32 20200320\"140014490: \"GCC: (GNU) 9.3-win32 20200320\"1400144b0: \"GCC: (GNU) 9.3-win32 20200320\"1400144d0: \"GCC: (GNU) 9.3-win32 20200320\"1400144f0: \"GCC: (GNU) 9.3-win32 20200320\"140014510: \"GCC: (GNU) 9.3-win32 20200320\"140014530: \"GCC: (GNU) 9.3-win32 20200320\"140014550: \"GCC: (GNU) 9.3-win32 20200320\"140014570: \"GCC: (GNU) 9.3-win32 20200320\"140014590: \"GCC: (GNU) 9.3-win32 20200320\"1400145b0: \"GCC: (GNU) 9.3-win32 20200320\"1400145d0: \"GCC: (GNU) 9.3-win32 20200320\"1400145f0: \"GCC: (GNU) 9.3-win32 20200320\"140014610: \"GCC: (GNU) 9.3-win32 20200320\"140014630: \"GCC: (GNU) 9.3-win32 20200320\"140014650: \"GCC: (GNU) 9.3-win32 20200320\"140014670: \"GCC: (GNU) 10-win32 20220113\"1400197e2: \"GetUserNameA\"1400197f2: \"RegCloseKey\"140019800: \"RegCreateKeyExA\"140019812: \"RegSetValueExA\"140019824: \"BCryptCloseAlgorithmProvider\"140019844: \"BCryptDecrypt\"140019854: \"BCryptDestroyKey\"140019868: \"BCryptEncrypt\"140019878: \"BCryptGenerateSymmetricKey\"140019896: \"BCryptOpenAlgorithmProvider\"1400198b4: \"BCryptSetProperty\"1400198c8: \"CloseHandle\"1400198d6: \"CopyFileA\"1400198e2: \"CreateDirectoryA\"1400198f6: \"CreateMutexA\"140019906: \"CreatePipe\"140019914: \"CreateProcessA\"140019926: \"CreateThread\"140019936: \"DeleteCriticalSection\"14001994e: \"DeleteFileA\"14001995c: \"EnterCriticalSection\"140019974: \"FindClose\"140019980: \"FindFirstFileA\"140019992: \"FindNextFileA\"1400199a2: \"FreeConsole\"1400199b0: \"GetComputerNameA\"1400199c4: \"GetFileAttributesA\"1400199da: \"GetLastError\"1400199ea: \"GetModuleFileNameA\"140019a00: \"GetStartupInfoA\"140019a12: \"GetSystemDefaultLCID\"140019a2a: \"GetSystemInfo\"140019a3a: \"GlobalLock\"140019a48: \"GlobalMemoryStatusEx\"140019a60: \"GlobalUnlock\"140019a70: \"InitializeCritical[truncated]"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000001e",
+              "parentSpanId": "0000000000000011",
+              "name": "mcp_elasticsearch_search",
+              "kind": 1,
+              "startTimeUnixNano": "1777233657357000000",
+              "endTimeUnixNano": "1777233657464000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "mcp_elasticsearch_search"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"index\":\".internal.alerts-security.alerts-default-000001\",\"query_body\":{\"size\":50,\"_source\":[\"@timestamp\",\"kibana.alert.rule.name\",\"kibana.alert.reason\",\"host.name\",\"user.name\",\"process.name\",\"process.command_line\",\"file.path\",\"file.name\",\"kibana.alert.severity\"],\"sort\":[{\"@timestamp\":\"asc\"}]}}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "Total results: 31, showing 31.[{\"@timestamp\":\"2026-03-29T17:45:10.807Z\",\"host\":{\"name\":\"anders-desktop\"},\"kibana.alert.reason\":\"driver event with process System, by SYSTEM on anders-desktop created medium alert First Time Seen Driver Loaded.\",\"kibana.alert.rule.name\":\"First Time Seen Driver Loaded\",\"kibana.alert.severity\":\"medium\",\"process\":{\"name\":\"System\"},\"user\":{\"name\":\"SYSTEM\"}},{\"@timestamp\":\"2026-03-29T17:45:10.816Z\",\"host\":{\"name\":\"anders-desktop\"},\"kibana.alert.reason\":\"driver event with process System, by SYSTEM on anders-desktop created medium alert First Time Seen Driver Loaded.\",\"kibana.alert.rule.name\":\"First Time Seen Driver Loaded\",\"kibana.alert.severity\":\"medium\",\"process\":{\"name\":\"System\"},\"user\":{\"name\":\"SYSTEM\"}},{\"@timestamp\":\"2026-03-29T17:45:10.824Z\",\"host\":{\"name\":\"anders-desktop\"},\"kibana.alert.reason\":\"driver event with process System, by SYSTEM on anders-desktop created medium alert First Time Seen Driver Loaded.\",\"kibana.alert.rule.name\":\"First Time Seen Driver Loaded\",\"kibana.alert.severity\":\"medium\",\"process\":{\"name\":\"System\"},\"user\":{\"name\":\"SYSTEM\"}},{\"@timestamp\":\"2026-03-29T17:45:10.829Z\",\"host\":{\"name\":\"anders-desktop\"},\"kibana.alert.reason\":\"driver event with process System, by SYSTEM on anders-desktop created medium alert First Time Seen Driver Loaded.\",\"kibana.alert.rule.name\":\"First Time Seen Driver Loaded\",\"kibana.alert.severity\":\"medium\",\"process\":{\"name\":\"System\"},\"user\":{\"name\":\"SYSTEM\"}},{\"@timestamp\":\"2026-03-29T17:49:49.938Z\",\"host\":{\"name\":\"anders-desktop\"},\"kibana.alert.reason\":\"network event with process updater.exe,:53, by anders on anders-desktop created high alert Network Activity to a Suspicious Top Level Domain.\",\"kibana.alert.rule.name\":\"Network Activity to a Suspicious Top Level Domain\",\"kibana.alert.severity\":\"high\",\"process\":{\"name\":\"updater.exe\"},\"user\":{\"name\":\"anders\"}},{\"@timestamp\":\"2026-03-29T17:49:49.942Z\",\"host\":{\"name\":\"anders-desktop\"},\"kibana.alert.reason\":\"network event with process updater.exe,:53, by anders on anders-desktop created high alert Network Activity to a Suspicious Top Level Domain.\",\"kibana.alert.rule.name\":\"Network Activity to a Suspicious Top Level Domain\",\"kibana.alert.severity\":\"high\",\"process\":{\"name\":\"updater.exe\"},\"user\":{\"name\":\"anders\"}},{\"@timestamp\":\"2026-03-29T17:49:49.946Z\",\"host\":{\"name\":\"anders-desktop\"},\"kibana.alert.reason\":\"network event with process updater.exe, by anders on anders-desktop created high alert Network Activity to a Suspicious Top Level Domain.\",\"kibana.alert.rule.name\":\"Network Activity to a Suspicious Top Level Domain\",\"kibana.alert.severity\":\"high\",\"process\":{\"name\":\"updater.exe\"},\"user\":{\"name\":\"anders\"}},{\"@timestamp\":\"2026-03-29T17:52:05.086Z\",\"host\":{\"name\":\"anders-desktop\"},\"kibana.alert.reason\":\"process event with process cmd.exe, parent process updater.exe, by anders on anders-desktop created low alert System Information Discovery via Windows Command Shell.\",\"kibana.alert.rule.name\":\"System Information Discovery via Windows Command Shell\",\"kibana.alert.severity\":\"low\",\"process\":{\"command_line\":\"cmd.exe /c dir \\\"C:\\\\Users\\\"\",\"name\":\"cmd.exe\"},\"user\":{\"name\":\"anders\"}},{\"@timestamp\":\"2026-03-29T17:52:05.094Z\",\"host\":{\"name\":\"anders-desktop\"},\"kibana.alert.reason\":\"process event with process cmd.exe, parent process updater.exe, by anders on anders-desktop created low alert System Information Discovery via Windows Command Shell.\",\"kibana.alert.rule.name\":\"System Information Discovery via Windows Command Shell\",\"kibana.alert.severity\":\"low\",\"process\":{\"command_line\":\"cmd.exe /c dir \\\"C:\\\\Users\\\"\",\"name\":\"cmd.exe\"},\"user\":{\"name\":\"anders\"}},{\"@timestamp\":\"2026-03-29T17:52:05.099Z\",\"host\":{\"name\":\"anders-desktop\"},\"kibana.alert.reason\":\"process event with process cmd.exe, parent process updater.exe, by anders on anders-desktop created low alert System Information Discovery via Windows Command Shell.\",\"kibana.alert.rule.name\":\"System Information Discovery via Windows Command Shell\",\"kibana.alert.severity\":\"low\",\"process\":{\"command_line\":\"cmd.exe /c dir \\\"C:\\\\Users\\\\anders\\\\Documents\\\"\",\"name\":\"cmd.exe\"},\"user\":{\"name\":\"anders\"}},{\"@timestamp\":\"2026-03-29T17:52:05.104Z\",\"host\":{\"name\":\"anders-desktop\"},\"kibana.alert.reason\":\"process event with process cmd.exe, parent process updater.exe, by anders on anders-desktop created low alert System Information Discovery via Windows Command Shell.\",\"kibana.alert.rule.name\":\"System Information Discovery via Windows Command Shell\",\"kibana.alert.severity\":\"low\",\"process\":{\"command_line\":\"cmd.exe /c dir \\\"C:\\\\Users\\\\anders\\\\Documents\\\"\",\"name\":\"cmd.exe\"},\"user\":{\"name\":\"anders\"}},{\"@timestamp\":\"2026-03-29T17:52:05.110Z\",\"host\":{\"name\":\"anders-desktop\"},\"kibana.alert.reason\":\"process event with process cmd.exe, parent process updater.exe, by anders on anders-desktop created low alert System Information Discovery via Windows Command Shell.\",\"kibana.alert.rule.name\":\"System Information Discovery via Windows Command Shell\",\"kibana.alert.severity\":\"low\",\"proce[truncated]"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000023",
+              "parentSpanId": "0000000000000011",
+              "name": "chat:claude-opus-4.7",
+              "kind": 1,
+              "startTimeUnixNano": "1777233657589000000",
+              "endTimeUnixNano": "1777233671344000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-opus-4.7"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "47417"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "652"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-0000000000000023",
+              "parentSpanId": "0000000000000011",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1777233671344000000",
+              "endTimeUnixNano": "1777233671344000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000011-3",
+              "name": "turn_end:3",
+              "kind": 1,
+              "startTimeUnixNano": "1777233671352000000",
+              "endTimeUnixNano": "1777233671352000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000011-4",
+              "name": "turn_start:4",
+              "kind": 1,
+              "startTimeUnixNano": "1777233671352000000",
+              "endTimeUnixNano": "1777233671352000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000024",
+              "parentSpanId": "0000000000000011",
+              "name": "read_file",
+              "kind": 1,
+              "startTimeUnixNano": "1777233671370000000",
+              "endTimeUnixNano": "1777233671422000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "read_file"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"filePath\":\"/home/user1/.config/Code/User/workspaceStorage/bbef83cd71af070edeaef0f44a397329/GitHub.copilot-chat/chat-session-resources/17793912-35ed-4ce1-99b4-c3e695f6469c/toolu_0178cjHrcR22ByA3Ydh32Wr7__vscode-1777233560973/content.json\",\"startLine\":1,\"endLine\":600}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "{\"node\":{\"type\":1,\"ctor\":2,\"ctorName\":\"kNe\",\"children\":[{\"type\":1,\"ctor\":2,\"ctorName\":\"bn\",\"children\":[{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":493,\"text\":\"[\\n\",\"references\":[{\"anchor\":{\"$mid\":1,\"fsPath\":\"/home/user1/.config/Code/User/workspaceStorage/bbef83cd71af070edeaef0f44a397329/GitHub.copilot-chat/chat-session-resources/17793912-35ed-4ce1-99b4-c3e695f6469c/toolu_0178cjHrcR22ByA3Ydh32Wr7__vscode-1777233560973/content.json\",\"external\":\"file:///home/user1/.config/Code/User/workspaceStorage/bbef83cd71af070edeaef0f44a397329/GitHub.copilot-chat/chat-session-resources/17793912-35ed-4ce1-99b4-c3e695f6469c/toolu_0178cjHrcR22ByA3Ydh32Wr7__vscode-1777233560973/content.json\",\"path\":\"/home/user1/.config/Code/User/workspaceStorage/bbef83cd71af070edeaef0f44a397329/GitHub.copilot-chat/chat-session-resources/17793912-35ed-4ce1-99b4-c3e695f6469c/toolu_0178cjHrcR22ByA3Ydh32Wr7__vscode-1777233560973/content.json\",\"scheme\":\"file\"},\"options\":{\"isFromTool\":true}}],\"lineBreakBefore\":true}],\"props\":{\"priority\":493},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":492,\"text\":\"  {\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":492},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":491,\"text\":\"    \\\"@timestamp\\\": \\\"2026-03-29T17:45:10.807Z\\\",\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":491},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":490,\"text\":\"    \\\"host\\\": {\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":490},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":489,\"text\":\"      \\\"name\\\": \\\"anders-desktop\\\"\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":489},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":488,\"text\":\"    },\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":488},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":487,\"text\":\"    \\\"kibana.alert.reason\\\": \\\"driver event with process System, by SYSTEM on anders-desktop created medium alert First Time Seen Driver Loaded.\\\",\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":487},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":486,\"text\":\"    \\\"kibana.alert.rule.name\\\": \\\"First Time Seen Driver Loaded\\\",\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":486},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":485,\"text\":\"    \\\"kibana.alert.severity\\\": \\\"medium\\\",\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":485},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":484,\"text\":\"    \\\"process\\\": {\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":484},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":483,\"text\":\"      \\\"name\\\": \\\"System\\\"\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":483},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":482,\"text\":\"    },\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":482},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":481,\"text\":\"    \\\"user\\\": {\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":481},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":480,\"text\":\"      \\\"name\\\": \\\"SYSTEM\\\"\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":480},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":479,\"text\":\"    }\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":479},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":478,\"text\":\"  },\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":478},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":477,\"text\":\"  {\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":477},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":476,\"text\":\"    \\\"@timestamp\\\": \\\"2026-03-29T17:45:10.816Z\\\",\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":476},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":475,\"text\":\"    \\\"host\\\": {\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":475},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":474,\"text\":\"      \\\"name\\\": \\\"anders-desktop\\\"\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":474},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":473,\"text\":\"    },\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":473},\"references\":[]},{\"type\":1,\"cto[truncated]"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000025",
+              "parentSpanId": "0000000000000011",
+              "name": "chat:claude-opus-4.7",
+              "kind": 1,
+              "startTimeUnixNano": "1777233671522000000",
+              "endTimeUnixNano": "1777233684130000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-opus-4.7"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "55818"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "883"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-0000000000000025",
+              "parentSpanId": "0000000000000011",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1777233684130000000",
+              "endTimeUnixNano": "1777233684130000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000011-4",
+              "name": "turn_end:4",
+              "kind": 1,
+              "startTimeUnixNano": "1777233684137000000",
+              "endTimeUnixNano": "1777233684137000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000011-5",
+              "name": "turn_start:5",
+              "kind": 1,
+              "startTimeUnixNano": "1777233684137000000",
+              "endTimeUnixNano": "1777233684137000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000026",
+              "parentSpanId": "0000000000000011",
+              "name": "mcp_elasticsearch_search",
+              "kind": 1,
+              "startTimeUnixNano": "1777233684148000000",
+              "endTimeUnixNano": "1777233684230000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "mcp_elasticsearch_search"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"index\":\".ds-logs-network_traffic.dns-default-2026.03.29-000001\",\"query_body\":{\"_source\":[\"@timestamp\",\"dns.question.name\",\"destination.ip\",\"host.name\"],\"size\":50,\"query\":{\"bool\":{\"should\":[{\"wildcard\":{\"dns.question.name\":\"*update*\"}},{\"wildcard\":{\"dns.question.name\":\"*f1leshare*\"}},{\"wildcard\":{\"dns.question.name\":\"*windowsupdater*\"}},{\"wildcard\":{\"dns.question.name\":\"*miccosoft*\"}}]}},\"sort\":[{\"@timestamp\":\"asc\"}]}}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "Total results: 28, showing 28.[{\"@timestamp\":\"2026-03-29T17:32:25.267Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"tas01.cwsapp.update.microsoft.com\"}},\"host\":{\"name\":\"anders-desktop\"}},{\"@timestamp\":\"2026-03-29T17:46:30.067Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"anders-desktop\"}},{\"@timestamp\":\"2026-03-29T17:46:30.067Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"anders-desktop\"}},{\"@timestamp\":\"2026-03-29T17:46:30.378Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"anders-desktop\"}},{\"@timestamp\":\"2026-03-29T17:46:30.395Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"anders-desktop\"}},{\"@timestamp\":\"2026-03-29T17:46:30.395Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"anders-desktop\"}},{\"@timestamp\":\"2026-03-29T17:46:30.413Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"anders-desktop\"}},{\"@timestamp\":\"2026-03-29T17:46:32.442Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"anders-desktop\"}},{\"@timestamp\":\"2026-03-29T17:46:41.786Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"anders-desktop\"}},{\"@timestamp\":\"2026-03-29T17:46:41.787Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"anders-desktop\"}},{\"@timestamp\":\"2026-03-29T17:46:41.788Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"anders-desktop\"}},{\"@timestamp\":\"2026-03-29T17:46:41.788Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"anders-desktop\"}},{\"@timestamp\":\"2026-03-29T17:46:59.199Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"john-desktop\"}},{\"@timestamp\":\"2026-03-29T17:46:59.199Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"john-desktop\"}},{\"@timestamp\":\"2026-03-29T17:46:59.344Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"john-desktop\"}},{\"@timestamp\":\"2026-03-29T17:46:59.390Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"john-desktop\"}},{\"@timestamp\":\"2026-03-29T17:47:00.593Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"john-desktop\"}},{\"@timestamp\":\"2026-03-29T17:47:00.593Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"john-desktop\"}},{\"@timestamp\":\"2026-03-29T17:47:02.398Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"john-desktop\"}},{\"@timestamp\":\"2026-03-29T17:47:05.427Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"anders-desktop\"}},{\"@timestamp\":\"2026-03-29T17:47:15.032Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"john-desktop\"}},{\"@timestamp\":\"2026-03-29T17:47:15.032Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"john-desktop\"}},{\"@timestamp\":\"2026-03-29T17:47:15.035Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"john-desktop\"}},{\"@timestamp\":\"2026-03-29T17:47:15.035Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"john-desktop\"}},{\"@timestamp\":\"2026-03-29T17:47:19.660Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"miccosoftupdate.com\"}},\"host\":{\"name\":\"anders-desktop\"}},{\"@timestamp\":\"2026-03-29T17:47:49.709Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"windowsupdater.tk\"}},\"host\":{\"name\":\"anders-desktop\"}},{\"@timestamp\":\"2026-03-29T17:49:06.766Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"f1leshare.net\"}},\"host\":{\"name\":\"john-desktop\"}},{\"@timestamp\":\"2026-03-29T17:50:41.052Z\",\"destination\":{\"ip\":\"10.3.10.254\"},\"dns\":{\"question\":{\"name\":\"ctldl.windowsupdate.com\"}},\"host\":{\"name\":\"emil-desktop\"}}]"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000027",
+              "parentSpanId": "0000000000000011",
+              "name": "mcp_elasticsearch_search",
+              "kind": 1,
+              "startTimeUnixNano": "1777233684148000000",
+              "endTimeUnixNano": "1777233684286000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "mcp_elasticsearch_search"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"index\":\".ds-logs-endpoint.events.registry-default-2026.03.29-000001\",\"query_body\":{\"_source\":[\"@timestamp\",\"host.name\",\"process.name\",\"registry.path\",\"registry.data.strings\"],\"size\":30,\"query\":{\"bool\":{\"should\":[{\"wildcard\":{\"registry.path\":\"*Microsoft*\"}},{\"match\":{\"process.name\":\"updater.exe\"}}]}},\"sort\":[{\"@timestamp\":\"asc\"}]}}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "Total results: 267, showing 30.[{\"@timestamp\":\"2026-03-29T17:33:19.370Z\",\"host\":{\"name\":\"anders-desktop\"},\"process\":{\"name\":\"svchost.exe\"},\"registry\":{\"data\":{\"strings\":[\"Prompt\"]},\"path\":\"HKEY_USERS\\\\S-1-5-21-2720038117-2954272070-1833396500-1002\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\CapabilityAccessManager\\\\ConsentStore\\\\location\\\\Microsoft.BingWeather_8wekyb3d8bbwe\\\\Value\"}},{\"@timestamp\":\"2026-03-29T17:33:19.384Z\",\"host\":{\"name\":\"anders-desktop\"},\"process\":{\"name\":\"svchost.exe\"},\"registry\":{\"data\":{\"strings\":[\"Allow\"]},\"path\":\"HKEY_USERS\\\\S-1-5-21-2720038117-2954272070-1833396500-1002\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\CapabilityAccessManager\\\\ConsentStore\\\\cellularData\\\\Microsoft.BingWeather_8wekyb3d8bbwe\\\\Value\"}},{\"@timestamp\":\"2026-03-29T17:33:19.455Z\",\"host\":{\"name\":\"anders-desktop\"},\"process\":{\"name\":\"svchost.exe\"},\"registry\":{\"data\":{\"strings\":[\"Allow\"]},\"path\":\"HKEY_USERS\\\\S-1-5-21-2720038117-2954272070-1833396500-1002\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\CapabilityAccessManager\\\\ConsentStore\\\\wifiData\\\\Microsoft.BingWeather_8wekyb3d8bbwe\\\\Value\"}},{\"@timestamp\":\"2026-03-29T17:34:14.413Z\",\"host\":{\"name\":\"emil-desktop\"},\"process\":{\"name\":\"svchost.exe\"},\"registry\":{\"data\":{\"strings\":[\"Allow\"]},\"path\":\"HKEY_USERS\\\\S-1-5-21-2720038117-2954272070-1833396500-1002\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\CapabilityAccessManager\\\\ConsentStore\\\\documentsLibrary\\\\Microsoft.SecHealthUI_8wekyb3d8bbwe\\\\Value\"}},{\"@timestamp\":\"2026-03-29T17:34:14.422Z\",\"host\":{\"name\":\"emil-desktop\"},\"process\":{\"name\":\"svchost.exe\"},\"registry\":{\"data\":{\"strings\":[\"Allow\"]},\"path\":\"HKEY_USERS\\\\S-1-5-21-2720038117-2954272070-1833396500-1002\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\CapabilityAccessManager\\\\ConsentStore\\\\cellularData\\\\Microsoft.SecHealthUI_8wekyb3d8bbwe\\\\Value\"}},{\"@timestamp\":\"2026-03-29T17:34:14.465Z\",\"host\":{\"name\":\"emil-desktop\"},\"process\":{\"name\":\"svchost.exe\"},\"registry\":{\"data\":{\"strings\":[\"Allow\"]},\"path\":\"HKEY_USERS\\\\S-1-5-21-2720038117-2954272070-1833396500-1002\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\CapabilityAccessManager\\\\ConsentStore\\\\wifiData\\\\Microsoft.SecHealthUI_8wekyb3d8bbwe\\\\Value\"}},{\"@timestamp\":\"2026-03-29T17:34:40.941Z\",\"host\":{\"name\":\"anders-desktop\"},\"process\":{\"name\":\"svchost.exe\"},\"registry\":{\"data\":{\"strings\":[\"Prompt\"]},\"path\":\"HKEY_USERS\\\\S-1-5-21-2720038117-2954272070-1833396500-1002\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\CapabilityAccessManager\\\\ConsentStore\\\\location\\\\Microsoft.BingNews_8wekyb3d8bbwe\\\\Value\"}},{\"@timestamp\":\"2026-03-29T17:34:40.955Z\",\"host\":{\"name\":\"anders-desktop\"},\"process\":{\"name\":\"svchost.exe\"},\"registry\":{\"data\":{\"strings\":[\"Allow\"]},\"path\":\"HKEY_USERS\\\\S-1-5-21-2720038117-2954272070-1833396500-1002\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\CapabilityAccessManager\\\\ConsentStore\\\\cellularData\\\\Microsoft.BingNews_8wekyb3d8bbwe\\\\Value\"}},{\"@timestamp\":\"2026-03-29T17:34:41.027Z\",\"host\":{\"name\":\"anders-desktop\"},\"process\":{\"name\":\"svchost.exe\"},\"registry\":{\"data\":{\"strings\":[\"Allow\"]},\"path\":\"HKEY_USERS\\\\S-1-5-21-2720038117-2954272070-1833396500-1002\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\CapabilityAccessManager\\\\ConsentStore\\\\wifiData\\\\Microsoft.BingNews_8wekyb3d8bbwe\\\\Value\"}},{\"@timestamp\":\"2026-03-29T17:35:12.069Z\",\"host\":{\"name\":\"anders-desktop\"},\"process\":{\"name\":\"svchost.exe\"},\"registry\":{\"data\":{\"strings\":[\"Allow\"]},\"path\":\"HKEY_USERS\\\\S-1-5-21-2720038117-2954272070-1833396500-1002\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\CapabilityAccessManager\\\\ConsentStore\\\\microphone\\\\Microsoft.GamingApp_8wekyb3d8bbwe\\\\Value\"}},{\"@timestamp\":\"2026-03-29T17:35:12.077Z\",\"host\":{\"name\":\"anders-desktop\"},\"process\":{\"name\":\"svchost.exe\"},\"registry\":{\"data\":{\"strings\":[\"Allow\"]},\"path\":\"HKEY_USERS\\\\S-1-5-21-2720038117-2954272070-1833396500-1002\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\CapabilityAccessManager\\\\ConsentStore\\\\webcam\\\\Microsoft.GamingApp_8wekyb3d8bbwe\\\\Value\"}},{\"@timestamp\":\"2026-03-29T17:35:40.405Z\",\"host\":{\"name\":\"emil-desktop\"},\"process\":{\"name\":\"svchost.exe\"},\"registry\":{\"data\":{\"strings\":[\"Prompt\"]},\"path\":\"HKEY_USERS\\\\S-1-5-21-2720038117-2954272070-1833396500-1002\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\CapabilityAccessManager\\\\ConsentStore\\\\appointments\\\\Microsoft.People_8wekyb3d8bbwe\\\\Value\"}},{\"@timestamp\":\"2026-03-29T17:35:40.416Z\",\"host\":{\"name\":\"emil-desktop\"},\"process\":{\"name\":\"svchost.exe\"},\"registry\":{\"data\":{\"strings\":[\"Prompt\"]},\"path\":\"HKEY_USERS\\\\S-1-5-21-2720038117-2954272070-1833396500-1002\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\CapabilityAccessManager\\\\ConsentStore\\\\phoneCallHistory\\\\Microsoft.People_8wekyb3d8bbwe\\\\Value\"}},{\"@timestamp\":\"2026-03-29T17:35:40.420Z\",\"host\":{\"name\":\"emil-desktop\"},\"process\":{\"name\":\"svchost.exe\"},\"registry\":{\"data\":{\"strings\":[\"Prompt\"]},\"path\":\"HKEY_USERS\\\\S-1-5-21-2720038117-2954272070-1833396500-1002\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\CapabilityAccessManager\\\\ConsentStore\\\\chat\\\\Microsoft.People_8[truncated]"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000028",
+              "parentSpanId": "0000000000000011",
+              "name": "mcp_elasticsearch_search",
+              "kind": 1,
+              "startTimeUnixNano": "1777233684148000000",
+              "endTimeUnixNano": "1777233687013000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "mcp_elasticsearch_search"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"index\":\".ds-logs-network_traffic.http-default-2026.03.29-000001\",\"query_body\":{\"_source\":[\"@timestamp\",\"url.full\",\"url.domain\",\"url.path\",\"http.request.method\",\"destination.ip\",\"host.name\",\"user_agent.original\"],\"size\":50,\"sort\":[{\"@timestamp\":\"asc\"}]}}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "Total results: 493, showing 50.[{\"@timestamp\":\"2026-03-29T17:32:07.522Z\",\"destination\":{\"ip\":\"212.229.88.27\"},\"host\":{\"name\":\"anders-desktop\"},\"http\":{\"request\":{\"method\":\"GET\"}},\"url\":{\"domain\":\"1d.tlu.dl.delivery.mp.microsoft.com\",\"full\":\"http://1d.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/91d9ec73-60c1-4543-ba5c-8e1656836dd7?P1=1774807218&P2=404&P3=2&P4=jEpx0xUv4Z7oMP5AsbcRVQIB%2F%2F115XSlc5VKugQ%2FUWbTSLCH19NGkzd2sJuMSeN6VrPd601as2phhey7j6R2jg%3D%3D\",\"path\":\"/filestreamingservice/files/91d9ec73-60c1-4543-ba5c-8e1656836dd7\"},\"user_agent\":{\"original\":\"Microsoft-Delivery-Optimization/10.1\"}},{\"@timestamp\":\"2026-03-29T17:32:07.576Z\",\"destination\":{\"ip\":\"212.229.88.28\"},\"host\":{\"name\":\"anders-desktop\"},\"http\":{\"request\":{\"method\":\"GET\"}},\"url\":{\"domain\":\"1d.tlu.dl.delivery.mp.microsoft.com\",\"full\":\"http://1d.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/91d9ec73-60c1-4543-ba5c-8e1656836dd7?P1=1774807218&P2=404&P3=2&P4=jEpx0xUv4Z7oMP5AsbcRVQIB%2F%2F115XSlc5VKugQ%2FUWbTSLCH19NGkzd2sJuMSeN6VrPd601as2phhey7j6R2jg%3D%3D\",\"path\":\"/filestreamingservice/files/91d9ec73-60c1-4543-ba5c-8e1656836dd7\"},\"user_agent\":{\"original\":\"Microsoft-Delivery-Optimization/10.1\"}},{\"@timestamp\":\"2026-03-29T17:32:07.666Z\",\"destination\":{\"ip\":\"212.229.88.28\"},\"host\":{\"name\":\"anders-desktop\"},\"http\":{\"request\":{\"method\":\"GET\"}},\"url\":{\"domain\":\"1d.tlu.dl.delivery.mp.microsoft.com\",\"full\":\"http://1d.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/91d9ec73-60c1-4543-ba5c-8e1656836dd7?P1=1774807218&P2=404&P3=2&P4=jEpx0xUv4Z7oMP5AsbcRVQIB%2F%2F115XSlc5VKugQ%2FUWbTSLCH19NGkzd2sJuMSeN6VrPd601as2phhey7j6R2jg%3D%3D\",\"path\":\"/filestreamingservice/files/91d9ec73-60c1-4543-ba5c-8e1656836dd7\"},\"user_agent\":{\"original\":\"Microsoft-Delivery-Optimization/10.1\"}},{\"@timestamp\":\"2026-03-29T17:32:07.764Z\",\"destination\":{\"ip\":\"212.229.88.28\"},\"host\":{\"name\":\"anders-desktop\"},\"http\":{\"request\":{\"method\":\"GET\"}},\"url\":{\"domain\":\"1d.tlu.dl.delivery.mp.microsoft.com\",\"full\":\"http://1d.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/91d9ec73-60c1-4543-ba5c-8e1656836dd7?P1=1774807218&P2=404&P3=2&P4=jEpx0xUv4Z7oMP5AsbcRVQIB%2F%2F115XSlc5VKugQ%2FUWbTSLCH19NGkzd2sJuMSeN6VrPd601as2phhey7j6R2jg%3D%3D\",\"path\":\"/filestreamingservice/files/91d9ec73-60c1-4543-ba5c-8e1656836dd7\"},\"user_agent\":{\"original\":\"Microsoft-Delivery-Optimization/10.1\"}},{\"@timestamp\":\"2026-03-29T17:32:07.833Z\",\"destination\":{\"ip\":\"212.229.88.28\"},\"host\":{\"name\":\"anders-desktop\"},\"http\":{\"request\":{\"method\":\"GET\"}},\"url\":{\"domain\":\"1d.tlu.dl.delivery.mp.microsoft.com\",\"full\":\"http://1d.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/91d9ec73-60c1-4543-ba5c-8e1656836dd7?P1=1774807218&P2=404&P3=2&P4=jEpx0xUv4Z7oMP5AsbcRVQIB%2F%2F115XSlc5VKugQ%2FUWbTSLCH19NGkzd2sJuMSeN6VrPd601as2phhey7j6R2jg%3D%3D\",\"path\":\"/filestreamingservice/files/91d9ec73-60c1-4543-ba5c-8e1656836dd7\"},\"user_agent\":{\"original\":\"Microsoft-Delivery-Optimization/10.1\"}},{\"@timestamp\":\"2026-03-29T17:32:07.868Z\",\"destination\":{\"ip\":\"212.229.88.27\"},\"host\":{\"name\":\"anders-desktop\"},\"http\":{\"request\":{\"method\":\"GET\"}},\"url\":{\"domain\":\"1d.tlu.dl.delivery.mp.microsoft.com\",\"full\":\"http://1d.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/91d9ec73-60c1-4543-ba5c-8e1656836dd7?P1=1774807218&P2=404&P3=2&P4=jEpx0xUv4Z7oMP5AsbcRVQIB%2F%2F115XSlc5VKugQ%2FUWbTSLCH19NGkzd2sJuMSeN6VrPd601as2phhey7j6R2jg%3D%3D\",\"path\":\"/filestreamingservice/files/91d9ec73-60c1-4543-ba5c-8e1656836dd7\"},\"user_agent\":{\"original\":\"Microsoft-Delivery-Optimization/10.1\"}},{\"@timestamp\":\"2026-03-29T17:32:07.900Z\",\"destination\":{\"ip\":\"212.229.88.28\"},\"host\":{\"name\":\"anders-desktop\"},\"http\":{\"request\":{\"method\":\"GET\"}},\"url\":{\"domain\":\"1d.tlu.dl.delivery.mp.microsoft.com\",\"full\":\"http://1d.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/91d9ec73-60c1-4543-ba5c-8e1656836dd7?P1=1774807218&P2=404&P3=2&P4=jEpx0xUv4Z7oMP5AsbcRVQIB%2F%2F115XSlc5VKugQ%2FUWbTSLCH19NGkzd2sJuMSeN6VrPd601as2phhey7j6R2jg%3D%3D\",\"path\":\"/filestreamingservice/files/91d9ec73-60c1-4543-ba5c-8e1656836dd7\"},\"user_agent\":{\"original\":\"Microsoft-Delivery-Optimization/10.1\"}},{\"@timestamp\":\"2026-03-29T17:32:08.090Z\",\"destination\":{\"ip\":\"212.229.88.28\"},\"host\":{\"name\":\"anders-desktop\"},\"http\":{\"request\":{\"method\":\"GET\"}},\"url\":{\"domain\":\"1d.tlu.dl.delivery.mp.microsoft.com\",\"full\":\"http://1d.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/91d9ec73-60c1-4543-ba5c-8e1656836dd7?P1=1774807218&P2=404&P3=2&P4=jEpx0xUv4Z7oMP5AsbcRVQIB%2F%2F115XSlc5VKugQ%2FUWbTSLCH19NGkzd2sJuMSeN6VrPd601as2phhey7j6R2jg%3D%3D\",\"path\":\"/filestreamingservice/files/91d9ec73-60c1-4543-ba5c-8e1656836dd7\"},\"user_agent\":{\"original\":\"Microsoft-Delivery-Optimization/10.1\"}},{\"@timestamp\":\"2026-03-29T17:32:08.116Z\",\"destination\":{\"ip\":\"212.229.88.27\"},\"host\":{\"name\":\"anders-desktop\"},\"http\":{\"request\":{\"method\":\"GET\"}},\"url\":{\"domain\":\"1d.tlu.dl.delivery.mp.microsoft.com\",\"full\":\"http://1d.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/9[truncated]"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000002b",
+              "parentSpanId": "0000000000000011",
+              "name": "chat:claude-opus-4.7",
+              "kind": 1,
+              "startTimeUnixNano": "1777233687147000000",
+              "endTimeUnixNano": "1777233696475000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-opus-4.7"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "59810"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "575"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-000000000000002b",
+              "parentSpanId": "0000000000000011",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1777233696475000000",
+              "endTimeUnixNano": "1777233696475000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000011-5",
+              "name": "turn_end:5",
+              "kind": 1,
+              "startTimeUnixNano": "1777233696481000000",
+              "endTimeUnixNano": "1777233696481000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000011-6",
+              "name": "turn_start:6",
+              "kind": 1,
+              "startTimeUnixNano": "1777233696481000000",
+              "endTimeUnixNano": "1777233696481000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000002d",
+              "parentSpanId": "0000000000000011",
+              "name": "mcp_elasticsearch_esql",
+              "kind": 1,
+              "startTimeUnixNano": "1777233696496000000",
+              "endTimeUnixNano": "1777233696584000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "mcp_elasticsearch_esql"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"query\":\"FROM .ds-logs-endpoint.events.registry-default-* | WHERE registry.path LIKE \\\"*MicrosoftUpdater*\\\" OR registry.path LIKE \\\"*\\\\\\\\Run\\\\\\\\*\\\" | KEEP @timestamp, host.name, process.name, registry.path, registry.data.strings | SORT @timestamp ASC | LIMIT 30\"}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "ERROR: MPC -32603: HTTP status client error (400 Bad Request) for url (https://10.3.20.1:9200/_query)"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 2
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000002e",
+              "parentSpanId": "0000000000000011",
+              "name": "mcp_elasticsearch_esql",
+              "kind": 1,
+              "startTimeUnixNano": "1777233696496000000",
+              "endTimeUnixNano": "1777233696601000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "mcp_elasticsearch_esql"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"query\":\"FROM .ds-logs-endpoint.events.process-default-* | WHERE process.name == \\\"updater.exe\\\" OR process.parent.name == \\\"updater.exe\\\" | KEEP @timestamp, host.name, user.name, process.name, process.parent.name, process.command_line, process.executable | SORT @timestamp ASC | LIMIT 50\"}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "Results[{\"@timestamp\":\"2026-03-29T17:47:20.142Z\",\"host.name\":\"anders-desktop\",\"process.command_line\":\"\\\"C:\\\\Users\\\\anders\\\\AppData\\\\Local\\\\Temp\\\\updater.exe\\\"\",\"process.executable\":\"C:\\\\Users\\\\anders\\\\AppData\\\\Local\\\\Temp\\\\updater.exe\",\"process.name\":\"updater.exe\",\"process.parent.name\":\"powershell.exe\",\"user.name\":\"anders\"},{\"@timestamp\":\"2026-03-29T17:48:22.628Z\",\"host.name\":\"anders-desktop\",\"process.command_line\":\"cmd.exe /c dir \\\"C:\\\\Users\\\"\",\"process.executable\":\"C:\\\\Windows\\\\System32\\\\cmd.exe\",\"process.name\":\"cmd.exe\",\"process.parent.name\":\"updater.exe\",\"user.name\":\"anders\"},{\"@timestamp\":\"2026-03-29T17:49:12.488Z\",\"host.name\":\"john-desktop\",\"process.command_line\":\"\\\"C:\\\\Users\\\\john\\\\AppData\\\\Local\\\\Temp\\\\updater.exe\\\"\",\"process.executable\":\"C:\\\\Users\\\\john\\\\AppData\\\\Local\\\\Temp\\\\updater.exe\",\"process.name\":\"updater.exe\",\"process.parent.name\":\"powershell.exe\",\"user.name\":\"john\"},{\"@timestamp\":\"2026-03-29T17:49:22.963Z\",\"host.name\":\"anders-desktop\",\"process.command_line\":\"cmd.exe /c dir \\\"C:\\\\Users\\\\anders\\\\Documents\\\"\",\"process.executable\":\"C:\\\\Windows\\\\System32\\\\cmd.exe\",\"process.name\":\"cmd.exe\",\"process.parent.name\":\"updater.exe\",\"user.name\":\"anders\"},{\"@timestamp\":\"2026-03-29T17:50:53.185Z\",\"host.name\":\"anders-desktop\",\"process.command_line\":\"cmd.exe /c dir \\\"C:\\\\Users\\\\anders\\\\Desktop\\\"\",\"process.executable\":\"C:\\\\Windows\\\\System32\\\\cmd.exe\",\"process.name\":\"cmd.exe\",\"process.parent.name\":\"updater.exe\",\"user.name\":\"anders\"},{\"@timestamp\":\"2026-03-29T17:51:53.313Z\",\"host.name\":\"anders-desktop\",\"process.command_line\":\"cmd.exe /c type \\\"C:\\\\Users\\\\anders\\\\Desktop\\\\polen.eml\\\"\",\"process.executable\":\"C:\\\\Windows\\\\System32\\\\cmd.exe\",\"process.name\":\"cmd.exe\",\"process.parent.name\":\"updater.exe\",\"user.name\":\"anders\"}]"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000002c",
+              "parentSpanId": "0000000000000011",
+              "name": "mcp_elasticsearch_esql",
+              "kind": 1,
+              "startTimeUnixNano": "1777233696496000000",
+              "endTimeUnixNano": "1777233696602000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "mcp_elasticsearch_esql"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"query\":\"FROM .ds-logs-network_traffic.http-default-* | WHERE url.domain LIKE \\\"*update*\\\" OR url.domain LIKE \\\"*f1leshare*\\\" OR url.domain LIKE \\\"*windowsupd*\\\" OR url.domain LIKE \\\"*miccosoft*\\\" | KEEP @timestamp, host.name, url.full, url.domain, url.path, http.request.method, destination.ip, user_agent.original | SORT @timestamp ASC | LIMIT 100\"}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "Results[{\"@timestamp\":\"2026-03-29T17:46:32.447Z\",\"destination.ip\":\"10.3.124.26\",\"host.name\":\"anders-desktop\",\"http.request.method\":\"GET\",\"url.domain\":\"f1leshare.net\",\"url.full\":\"http://f1leshare.net/?file=kongsberggrupper-insider&share=nordnet.no\",\"url.path\":\"/\",\"user_agent.original\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0\"},{\"@timestamp\":\"2026-03-29T17:46:32.502Z\",\"destination.ip\":\"10.3.124.26\",\"host.name\":\"anders-desktop\",\"http.request.method\":\"GET\",\"url.domain\":\"f1leshare.net\",\"url.full\":\"http://f1leshare.net/static/fortinet_logo.png\",\"url.path\":\"/static/fortinet_logo.png\",\"user_agent.original\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0\"},{\"@timestamp\":\"2026-03-29T17:46:37.386Z\",\"destination.ip\":\"10.3.124.26\",\"host.name\":\"anders-desktop\",\"http.request.method\":\"GET\",\"url.domain\":\"f1leshare.net\",\"url.full\":\"http://f1leshare.net/favicon.ico\",\"url.path\":\"/favicon.ico\",\"user_agent.original\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0\"},{\"@timestamp\":\"2026-03-29T17:46:41.808Z\",\"destination.ip\":\"10.3.124.26\",\"host.name\":\"anders-desktop\",\"http.request.method\":\"GET\",\"url.domain\":\"f1leshare.net\",\"url.full\":\"http://f1leshare.net/captcha?email=anders%40kongsberg.com&q=Fortinet%2Fabh4whnesdgbw07f%2FImportant+Download\",\"url.path\":\"/captcha\",\"user_agent.original\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0\"},{\"@timestamp\":\"2026-03-29T17:46:41.832Z\",\"destination.ip\":\"10.3.124.26\",\"host.name\":\"anders-desktop\",\"http.request.method\":\"GET\",\"url.domain\":\"f1leshare.net\",\"url.full\":\"http://f1leshare.net/static/captcha.png\",\"url.path\":\"/static/captcha.png\",\"user_agent.original\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0\"},{\"@timestamp\":\"2026-03-29T17:47:03.250Z\",\"destination.ip\":\"10.3.124.26\",\"host.name\":\"john-desktop\",\"http.request.method\":\"GET\",\"url.domain\":\"f1leshare.net\",\"url.full\":\"http://f1leshare.net/?file=norway-buys-80-jets&share=reddit.com\",\"url.path\":\"/\",\"user_agent.original\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\"},{\"@timestamp\":\"2026-03-29T17:47:03.880Z\",\"destination.ip\":\"10.3.124.26\",\"host.name\":\"john-desktop\",\"http.request.method\":\"GET\",\"url.domain\":\"f1leshare.net\",\"url.full\":\"http://f1leshare.net/static/fortinet_logo.png\",\"url.path\":\"/static/fortinet_logo.png\",\"user_agent.original\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\"},{\"@timestamp\":\"2026-03-29T17:47:03.908Z\",\"destination.ip\":\"10.3.124.26\",\"host.name\":\"john-desktop\",\"http.request.method\":\"GET\",\"url.domain\":\"f1leshare.net\",\"url.full\":\"http://f1leshare.net/favicon.ico\",\"url.path\":\"/favicon.ico\",\"user_agent.original\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\"},{\"@timestamp\":\"2026-03-29T17:47:07.104Z\",\"destination.ip\":\"10.3.124.26\",\"host.name\":\"anders-desktop\",\"http.request.method\":\"GET\",\"url.domain\":\"f1leshare.net\",\"url.full\":\"http://f1leshare.net/download/updater\",\"url.path\":\"/download/updater\",\"user_agent.original\":\"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.169\"},{\"@timestamp\":\"2026-03-29T17:47:15.167Z\",\"destination.ip\":\"10.3.124.26\",\"host.name\":\"john-desktop\",\"http.request.method\":\"GET\",\"url.domain\":\"f1leshare.net\",\"url.full\":\"http://f1leshare.net/captcha?email=john%40airbus.com&q=Fortinet%2Fabh4whnesdgbw07f%2FImportant+Download\",\"url.path\":\"/captcha\",\"user_agent.original\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\"},{\"@timestamp\":\"2026-03-29T17:47:15.190Z\",\"destination.ip\":\"10.3.124.26\",\"host.name\":\"john-desktop\",\"http.request.method\":\"GET\",\"url.domain\":\"f1leshare.net\",\"url.full\":\"http://f1leshare.net/static/captcha.png\",\"url.path\":\"/static/captcha.png\",\"user_agent.original\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\"},{\"@timestamp\":\"2026-03-29T17:47:49.712Z\",\"destination.ip\":\"10.3.215.83\",\"host.name\":\"anders-desktop\",\"http.request.method\":\"POST\",\"url.domain\":\"windowsupdater.tk\",\"url.full\":\"http://windowsupdater.tk/windows/checkforupdate\",\"url.path\":\"/windows/checkforupdate\",\"user_agent.original\":\"Mozilla/5.0\"},{\"@timestamp\":\"2026-03-29T17:48:20.010Z\",\"destination.ip\":\"10.3.215.83\",\"host.name\":\"anders-desktop\",\"http.request.method\":\"POST\",\"url.domain\":\"windowsupdater.tk\",\"url.full\":\"http://windowsupdater.tk/windows/checkforupdate\",\"url.path\":\"/windows/checkforupdate\",\"user_agent.original\":\"[truncated]"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "000000000000002f",
+              "parentSpanId": "0000000000000011",
+              "name": "chat:claude-opus-4.7",
+              "kind": 1,
+              "startTimeUnixNano": "1777233696733000000",
+              "endTimeUnixNano": "1777233708237000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-opus-4.7"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "61712"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "485"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-000000000000002f",
+              "parentSpanId": "0000000000000011",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1777233708237000000",
+              "endTimeUnixNano": "1777233708237000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000011-6",
+              "name": "turn_end:6",
+              "kind": 1,
+              "startTimeUnixNano": "1777233708244000000",
+              "endTimeUnixNano": "1777233708244000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_start-0000000000000011-7",
+              "name": "turn_start:7",
+              "kind": 1,
+              "startTimeUnixNano": "1777233708244000000",
+              "endTimeUnixNano": "1777233708244000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000031",
+              "parentSpanId": "0000000000000011",
+              "name": "read_file",
+              "kind": 1,
+              "startTimeUnixNano": "1777233708260000000",
+              "endTimeUnixNano": "1777233708300000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "read_file"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"filePath\":\"/home/user1/.config/Code/User/workspaceStorage/bbef83cd71af070edeaef0f44a397329/GitHub.copilot-chat/chat-session-resources/17793912-35ed-4ce1-99b4-c3e695f6469c/toolu_014LMjUWfzvp65ui26XdnuHG__vscode-1777233560980/content.json\",\"startLine\":1,\"endLine\":200}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "{\"node\":{\"type\":1,\"ctor\":2,\"ctorName\":\"kNe\",\"children\":[{\"type\":1,\"ctor\":2,\"ctorName\":\"bn\",\"children\":[{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":200,\"text\":\"[\\n\",\"references\":[{\"anchor\":{\"$mid\":1,\"fsPath\":\"/home/user1/.config/Code/User/workspaceStorage/bbef83cd71af070edeaef0f44a397329/GitHub.copilot-chat/chat-session-resources/17793912-35ed-4ce1-99b4-c3e695f6469c/toolu_014LMjUWfzvp65ui26XdnuHG__vscode-1777233560980/content.json\",\"external\":\"file:///home/user1/.config/Code/User/workspaceStorage/bbef83cd71af070edeaef0f44a397329/GitHub.copilot-chat/chat-session-resources/17793912-35ed-4ce1-99b4-c3e695f6469c/toolu_014LMjUWfzvp65ui26XdnuHG__vscode-1777233560980/content.json\",\"path\":\"/home/user1/.config/Code/User/workspaceStorage/bbef83cd71af070edeaef0f44a397329/GitHub.copilot-chat/chat-session-resources/17793912-35ed-4ce1-99b4-c3e695f6469c/toolu_014LMjUWfzvp65ui26XdnuHG__vscode-1777233560980/content.json\",\"scheme\":\"file\"},\"options\":{\"isFromTool\":true}}],\"lineBreakBefore\":true}],\"props\":{\"priority\":200},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":199,\"text\":\"  {\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":199},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":198,\"text\":\"    \\\"@timestamp\\\": \\\"2026-03-29T17:46:32.447Z\\\",\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":198},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":197,\"text\":\"    \\\"destination.ip\\\": \\\"10.3.124.26\\\",\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":197},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":196,\"text\":\"    \\\"host.name\\\": \\\"anders-desktop\\\",\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":196},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":195,\"text\":\"    \\\"http.request.method\\\": \\\"GET\\\",\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":195},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":194,\"text\":\"    \\\"url.domain\\\": \\\"f1leshare.net\\\",\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":194},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":193,\"text\":\"    \\\"url.full\\\": \\\"http://f1leshare.net/?file=kongsberggrupper-insider&share=nordnet.no\\\",\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":193},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":192,\"text\":\"    \\\"url.path\\\": \\\"/\\\",\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":192},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":191,\"text\":\"    \\\"user_agent.original\\\": \\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0\\\"\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":191},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":190,\"text\":\"  },\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":190},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":189,\"text\":\"  {\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":189},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":188,\"text\":\"    \\\"@timestamp\\\": \\\"2026-03-29T17:46:32.502Z\\\",\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":188},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":187,\"text\":\"    \\\"destination.ip\\\": \\\"10.3.124.26\\\",\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":187},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":186,\"text\":\"    \\\"host.name\\\": \\\"anders-desktop\\\",\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":186},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":185,\"text\":\"    \\\"http.request.method\\\": \\\"GET\\\",\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":185},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":184,\"text\":\"    \\\"url.domain\\\": \\\"f1leshare.net\\\",\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":184},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":183,\"text\":\"    \\\"url.full\\\": \\\"http://f1leshare.net/static/fortinet_logo.png\\\",\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":183},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":182,\"text\":\"    \\\"url.path\\\": \\\"/static/fortinet_logo.png\\\",\\n\",\"references\":[],\"lineBreakBefore\":true}],\"props\":{\"priority\":182},\"references\":[]},{\"type\":1,\"ctor\":2,\"ctorName\":\"N8e\",\"children\":[{\"type\":2,\"priority\":181,\"text\":\"    \\\"user_agent.original\\\": \\\"Mozi[truncated]"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000030",
+              "parentSpanId": "0000000000000011",
+              "name": "mcp_elasticsearch_search",
+              "kind": 1,
+              "startTimeUnixNano": "1777233708260000000",
+              "endTimeUnixNano": "1777233708329000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "mcp_elasticsearch_search"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"index\":\".ds-logs-endpoint.events.registry-default-2026.03.29-000001\",\"query_body\":{\"_source\":[\"@timestamp\",\"host.name\",\"process.name\",\"registry.path\",\"registry.data.strings\"],\"query\":{\"bool\":{\"should\":[{\"wildcard\":{\"registry.path\":\"*MicrosoftUpdater*\"}},{\"wildcard\":{\"registry.path\":\"*CurrentVersion\\\\\\\\Run*\"}}]}},\"size\":30,\"sort\":[{\"@timestamp\":\"asc\"}]}}"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "Total results: 9, showing 9.[{\"@timestamp\":\"2026-03-29T17:39:08.380Z\",\"host\":{\"name\":\"anders-desktop\"},\"process\":{\"name\":\"msedge.exe\"},\"registry\":{\"data\":{\"strings\":[\"\\\"C:\\\\Program Files (x86)\\\\Microsoft\\\\Edge\\\\Application\\\\msedge.exe\\\" --no-startup-window --win-session-start\"]},\"path\":\"HKEY_USERS\\\\S-1-5-21-2720038117-2954272070-1833396500-1002\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\\\\MicrosoftEdgeAutoLaunch_73AA5AF158F1B5137233D4AB4AF25ABE\"}},{\"@timestamp\":\"2026-03-29T17:41:21.776Z\",\"host\":{\"name\":\"emil-desktop\"},\"process\":{\"name\":\"OneDrive.exe\"},\"registry\":{\"data\":{\"strings\":[\"\\\"C:\\\\Users\\\\emil\\\\AppData\\\\Local\\\\Microsoft\\\\OneDrive\\\\OneDrive.exe\\\" /background\"]},\"path\":\"HKEY_USERS\\\\S-1-5-21-2720038117-2954272070-1833396500-1002\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\\\\OneDrive\"}},{\"@timestamp\":\"2026-03-29T17:44:47.136Z\",\"host\":{\"name\":\"emil-desktop\"},\"process\":{\"name\":\"msedge.exe\"},\"registry\":{\"data\":{\"strings\":[\"\\\"C:\\\\Program Files (x86)\\\\Microsoft\\\\Edge\\\\Application\\\\msedge.exe\\\" --no-startup-window --win-session-start\"]},\"path\":\"HKEY_USERS\\\\S-1-5-21-2720038117-2954272070-1833396500-1002\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\\\\MicrosoftEdgeAutoLaunch_C79D177B73A5FD21CD11217B0AADF813\"}},{\"@timestamp\":\"2026-03-29T17:45:29.969Z\",\"host\":{\"name\":\"john-desktop\"},\"process\":{\"name\":\"msedge.exe\"},\"registry\":{\"data\":{\"strings\":[\"\\\"C:\\\\Program Files (x86)\\\\Microsoft\\\\Edge\\\\Application\\\\msedge.exe\\\" --no-startup-window --win-session-start\"]},\"path\":\"HKEY_USERS\\\\S-1-5-21-2720038117-2954272070-1833396500-1002\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\\\\MicrosoftEdgeAutoLaunch_45D944CC36A69C479BF3C348604E81F2\"}},{\"@timestamp\":\"2026-03-29T17:46:25.317Z\",\"host\":{\"name\":\"emil-desktop\"},\"process\":{\"name\":\"msedge.exe\"},\"registry\":{\"data\":{\"strings\":[\"\\\"C:\\\\Program Files (x86)\\\\Microsoft\\\\Edge\\\\Application\\\\msedge.exe\\\" --no-startup-window --win-session-start\"]},\"path\":\"HKEY_USERS\\\\S-1-5-21-2720038117-2954272070-1833396500-1002\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\\\\MicrosoftEdgeAutoLaunch_C79D177B73A5FD21CD11217B0AADF813\"}},{\"@timestamp\":\"2026-03-29T17:47:21.479Z\",\"host\":{\"name\":\"anders-desktop\"},\"process\":{\"name\":\"updater.exe\"},\"registry\":{\"data\":{\"strings\":[\"C:\\\\Users\\\\anders\\\\AppData\\\\Local\\\\Microsoft\\\\updater.exe\"]},\"path\":\"HKEY_USERS\\\\S-1-5-21-2720038117-2954272070-1833396500-1002\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\\\\MicrosoftUpdater\"}},{\"@timestamp\":\"2026-03-29T17:48:10.181Z\",\"host\":{\"name\":\"emil-desktop\"},\"process\":{\"name\":\"OneDriveSetup.exe\"},\"registry\":{\"data\":{\"strings\":[\"C:\\\\Windows\\\\system32\\\\cmd.exe /q /c del /q \\\"C:\\\\Users\\\\emil\\\\AppData\\\\Local\\\\Microsoft\\\\OneDrive\\\\Update\\\\OneDriveSetup.exe\\\"\"]},\"path\":\"HKEY_USERS\\\\S-1-5-21-2720038117-2954272070-1833396500-1002\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Runonce\\\\Delete Cached Update Binary\"}},{\"@timestamp\":\"2026-03-29T17:48:10.183Z\",\"host\":{\"name\":\"emil-desktop\"},\"process\":{\"name\":\"OneDriveSetup.exe\"},\"registry\":{\"data\":{\"strings\":[\"C:\\\\Windows\\\\system32\\\\cmd.exe /q /c del /q \\\"C:\\\\Users\\\\emil\\\\AppData\\\\Local\\\\Microsoft\\\\OneDrive\\\\StandaloneUpdater\\\\OneDriveSetup.exe\\\"\"]},\"path\":\"HKEY_USERS\\\\S-1-5-21-2720038117-2954272070-1833396500-1002\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Runonce\\\\Delete Cached Standalone Update Binary\"}},{\"@timestamp\":\"2026-03-29T17:52:08.411Z\",\"host\":{\"name\":\"john-desktop\"},\"process\":{\"name\":\"OneDrive.exe\"},\"registry\":{\"data\":{\"strings\":[\"\\\"C:\\\\Users\\\\john\\\\AppData\\\\Local\\\\Microsoft\\\\OneDrive\\\\OneDrive.exe\\\" /background\"]},\"path\":\"HKEY_USERS\\\\S-1-5-21-2720038117-2954272070-1833396500-1002\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\\\\OneDrive\"}}]"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "0000000000000032",
+              "parentSpanId": "0000000000000011",
+              "name": "chat:claude-opus-4.7",
+              "kind": 1,
+              "startTimeUnixNano": "1777233708424000000",
+              "endTimeUnixNano": "1777233781262000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-opus-4.7"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.input_tokens",
+                  "value": {
+                    "intValue": "68497"
+                  }
+                },
+                {
+                  "key": "gen_ai.usage.output_tokens",
+                  "value": {
+                    "intValue": "4504"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "agent-msg-0000000000000032",
+              "parentSpanId": "0000000000000011",
+              "name": "agent_response",
+              "kind": 1,
+              "startTimeUnixNano": "1777233781262000000",
+              "endTimeUnixNano": "1777233781262000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            },
+            {
+              "traceId": "exported-trace",
+              "spanId": "turn_end-0000000000000011-7",
+              "name": "turn_end:7",
+              "kind": 1,
+              "startTimeUnixNano": "1777233781272000000",
+              "endTimeUnixNano": "1777233781272000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "core_event"
+                  }
+                }
+              ],
+              "events": [],
+              "status": {
+                "code": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "copilotChat": {
+    "exportedAt": "2026-04-26T20:03:29.986Z",
+    "exporterVersion": "",
+    "sessionId": "17793912-35ed-4ce1-99b4-c3e695f6469c",
+    "sessionTitle": "Incident Analysis Using Elasticsearch and Ghidra"
+  }
+}

